@@ -1,0 +1,29 @@
+@CHARSET "ISO-8859-1";
+
+.text-danger {
+    color: #f87961;
+}
+.text-success
+	{
+	color:#449d44;
+	
+	}
+
+.text-info {
+    color: #5ec2dd;
+}
+.text-warning {
+    color: #edb25b;
+}
+.text-mint {
+    color: #60ccaf;
+}
+
+.text-purple {
+    color: #a1709b;
+   
+}
+
+.text-pink {
+    color: #e488af;
+}

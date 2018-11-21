@@ -1,0 +1,22 @@
+     <link href="<?php echo SITE_URL.'/assets/residential/rating/star-rating.min.css';?>" rel="stylesheet">
+     <!-- srript for star rating -->
+<script src="<?php echo SITE_URL.'/assets/residential/rating/jquery.min.js';?>"></script>
+<script src="<?php echo SITE_URL.'/assets/residential/rating/star-rating.min.js';?>"></script> 
+
+
+
+ <form method="post" action="">
+             
+                  <div class="row">
+                     <div class="col-md-7">
+                      
+                    
+                     <div class="col-md-5">
+                            <div class="form-group">
+                            <label>Rating</label>
+			<input autocomplete="off" name="rating_stars" min ="1" max="5" type="number" class="rating" data-size="lg">
+							       
+			</div>
+                     </div>
+                  </div>
+               </form>
