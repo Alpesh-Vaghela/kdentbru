@@ -376,23 +376,24 @@ if (isset($_REQUEST['action_complete'])) {
                                                         <?php }
                                                     } else if ($appoint['status'] == "deleted") {
                                                         if ($appoint['payment_status'] == "unpaid") {
-                                                            ?>
-                                                            <br>
-                                                            <a href="#" data-toggle="modal"
-                                                               data-target="#myModal_payment"
-                                                               class="load_payment_details" id="load_payment_details"
-                                                               data_id="<?php echo $appoint['id']; ?>"
-                                                               data_booking_id="<?php echo $appoint['booking_id']; ?>"
-                                                               data_booking_date="<?php echo date(COMMON_DATE_FORMAT, strtotime($appoint['appointment_date'])); ?>"
-                                                               data_customer="<?php echo ucwords($customer_name); ?>"
-                                                               data_service_name="<?php echo ucwords($service_name); ?>"
-                                                               data_payment_sum_advance="<?php echo ucwords($payment_sum_advance); ?>"
-                                                               data_service_cost="<?php echo $appoint['service_cost'] ?>"
-                                                               data_balance="<?php echo $appoint['balance'] ?>">(Aggiungi
-                                                                PAGAMENTO)</a>
-
-
-                                                        <?php } else {
+                                                            if ($appoint['status'] != "deleted") {
+                                                                ?>
+                                                                <br>
+                                                                <a href="#" data-toggle="modal"
+                                                                   data-target="#myModal_payment"
+                                                                   class="load_payment_details"
+                                                                   id="load_payment_details"
+                                                                   data_id="<?php echo $appoint['id']; ?>"
+                                                                   data_booking_id="<?php echo $appoint['booking_id']; ?>"
+                                                                   data_booking_date="<?php echo date(COMMON_DATE_FORMAT, strtotime($appoint['appointment_date'])); ?>"
+                                                                   data_customer="<?php echo ucwords($customer_name); ?>"
+                                                                   data_service_name="<?php echo ucwords($service_name); ?>"
+                                                                   data_payment_sum_advance="<?php echo ucwords($payment_sum_advance); ?>"
+                                                                   data_service_cost="<?php echo $appoint['service_cost'] ?>"
+                                                                   data_balance="<?php echo $appoint['balance'] ?>">(Aggiungi
+                                                                    PAGAMENTO)</a>
+                                                            <?php }
+                                                        } else {
                                                             ?>
                                                             <span class="label label-success"><i
                                                                         class="fa fa-check "></i> SALDATO</span>

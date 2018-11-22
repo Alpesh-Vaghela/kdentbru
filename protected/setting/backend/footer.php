@@ -161,7 +161,7 @@ if (file_exists(SERVER_ROOT . '/protected/views/backend/modal_box.php')) {
                         modal: '#events-modal',
                         modalTitle: 'Appointment Details',
                         appointment_id: '<?php echo $aa['id'];?>',
-                        appointment_date_service_time: '<?php echo date("D M d,Y", strtotime($appointment_date));?> <?php echo date('h:i a', strtotime($appointment_time));?>-<?php echo date('h:i a', strtotime($appointment_end_time));?>',
+                        appointment_date_service_time: '<?php echo date("D M d,Y", strtotime($appointment_date));?> <?php echo date('H:i:s', strtotime($appointment_time));?>-<?php echo date('H:i:s', strtotime($appointment_end_time));?>',
                         provider: 'Provider: <?php echo $service_provider_firstname?> <?php echo $service_provider_lastname?>',
                         service: 'Service: <?php echo $service_name?>',
                         cost: 'Cost: <?php echo SITE_CURRENCY . "" . $service_cost?>',

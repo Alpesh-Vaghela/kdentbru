@@ -11,9 +11,7 @@ $receiptnistTimeSlot = array(array('custom_time_slot' => 5));
 if (isset($_REQUEST['edit']) && $_REQUEST['edit'] == "appointment_date") {
     list($appointment_date, $appointment_time) = explode("T", $_REQUEST['appointment_start_date_time']);
     list($appointment_end_date, $appointment_end_time) = explode("T", $_REQUEST['appointment_end_date_time']);
-    //$db->update('appointments', array('id' => $_REQUEST['id']), array('appointment_date' => $appointment_date, "appointment_time" => $appointment_time, "appointment_end_time" => $appointment_end_time));
-    $updateSQL = "UPDATE `appointments` SET `appointment_date`='".$appointment_date."',`appointment_time`='".$appointment_time."',`appointment_end_time`='".$appointment_end_time."' WHERE id='".$_REQUEST['id']."'";
-    //die($updateSQL);
+    $updateSQL = "UPDATE `appointments` SET `appointment_date`='" . $appointment_date . "',`appointment_time`='" . $appointment_time . "',`appointment_end_time`='" . $appointment_end_time . "' WHERE id='" . $_REQUEST['id'] . "'";
     $db->run($updateSQL);
     die("OK");
 }
@@ -334,7 +332,7 @@ AND ((`appointment_time` BETWEEN '$appointment_start_timee' AND '$appointment_en
             $staff_email = $db->get_var('users', array('user_id' => $service_provider), 'email');
 
             $event = "<b>Nuovo Appuntamento</b>  " . $first_name . " " . $last_name . " per " . $service_name . "<br>
-        il " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " alle " . date('h:i:s a', strtotime($appointment_time)) . " con " . $staff_first_name . " " . $staff_last_name;
+        il " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " alle " . date('H:i:s', strtotime($appointment_time)) . " con " . $staff_first_name . " " . $staff_last_name;
             $db->insert('activity_logs', array('user_id' => $_SESSION['user_id'],
                 'event_type' => 'appointment_created',
                 'event' => $event,
@@ -377,7 +375,7 @@ AND ((`appointment_time` BETWEEN '$appointment_start_timee' AND '$appointment_en
             <div style="border-bottom:1px solid #e5e5e5;margin-bottom:20px;padding-bottom:15px">
             <div style="display:inline-block;width:100%">
             <label style="color:#788a95;font-size:15px">When:&nbsp;</label>
-            <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('h:i:s a', strtotime($appointment_time)) . ' ' . $customer_timezone . '</p>
+            <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('H:i:s', strtotime($appointment_time)) . ' ' . $customer_timezone . '</p>
             </div>
             <div style="display:inline-block;width:100%">
             <label style="color:#788a95;font-size:15px">Service:&nbsp;</label>
@@ -416,7 +414,7 @@ AND ((`appointment_time` BETWEEN '$appointment_start_timee' AND '$appointment_en
                         'Reply-To: ' . COMPANY_EMAIL . "\r\n" .
                         'X-Mailer: PHP/' . phpversion();
 
-                    $subject = "Appuntamento prenotato il " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('h:i:s a', strtotime($appointment_time)) . " con " . $staff_first_name . " " . $staff_last_name;
+                    $subject = "Appuntamento prenotato il " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('H:i:s', strtotime($appointment_time)) . " con " . $staff_first_name . " " . $staff_last_name;
 
                     $confirm = mail($customer_email, $subject, $customer_add_appointment_email_body, $headers);
                 }
@@ -454,7 +452,7 @@ AND ((`appointment_time` BETWEEN '$appointment_start_timee' AND '$appointment_en
                <div style="border-bottom:1px solid #e5e5e5;margin-bottom:20px;padding-bottom:15px">
                <div style="display:inline-block;width:100%">
                <label style="color:#788a95;font-size:15px">When:&nbsp;</label>
-               <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('h:i:s a', strtotime($appointment_time)) . ' ' . $staff_timezone . '</p>
+               <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('H:i:s', strtotime($appointment_time)) . ' ' . $staff_timezone . '</p>
                </div>
                <div style="display:inline-block;width:100%">
                <label style="color:#788a95;font-size:15px">Service:&nbsp;</label>
@@ -514,7 +512,7 @@ AND ((`appointment_time` BETWEEN '$appointment_start_timee' AND '$appointment_en
                         'Reply-To: ' . COMPANY_EMAIL . "\r\n" .
                         'X-Mailer: PHP/' . phpversion();
 
-                    $subject = "Appuntamento prenotato il " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('h:i:s a', strtotime($appointment_time)) . " con " . $first_name . " " . $last_name;
+                    $subject = "Appuntamento prenotato il " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('H:i:s', strtotime($appointment_time)) . " con " . $first_name . " " . $last_name;
 
                     $confirm = mail($staff_email, $subject, $staff_add_appointment_email_body, $headers);
                 }
@@ -703,7 +701,7 @@ if (isset($_POST['edit_appointment_submit'])) {
             $staff_email = $db->get_var('users', array('user_id' => $service_provider), 'email');
 
             $event = "<b>Rescheduled appt.</b>  " . $first_name . " " . $last_name . " for a " . $service_name . "<br>
-           on " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . "@" . date('h:i:s a', strtotime($appointment_time)) . " w/ " . $staff_first_name . " " . $staff_last_name;
+           on " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . "@" . date('H:i:s', strtotime($appointment_time)) . " w/ " . $staff_first_name . " " . $staff_last_name;
             $db->insert('activity_logs', array('user_id' => $_SESSION['user_id'],
                 'event_type' => 'appointment_updated',
                 'event' => $event,
@@ -744,7 +742,7 @@ if (isset($_POST['edit_appointment_submit'])) {
                 <div style="border-bottom:1px solid #e5e5e5;margin-bottom:20px;padding-bottom:15px">
                 <div style="display:inline-block;width:100%">
                 <label style="color:#788a95;font-size:15px">When:&nbsp;</label>
-                <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('h:i:s a', strtotime($appointment_time)) . ' ' . $customer_timezone . '</p>
+                <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('H:i:s', strtotime($appointment_time)) . ' ' . $customer_timezone . '</p>
                 </div>
                 <div style="display:inline-block;width:100%">
                 <label style="color:#788a95;font-size:15px">Service:&nbsp;</label>
@@ -783,7 +781,7 @@ if (isset($_POST['edit_appointment_submit'])) {
                         'Reply-To: ' . COMPANY_EMAIL . "\r\n" .
                         'X-Mailer: PHP/' . phpversion();
 
-                    $subject = "Appointment Rescheduled for " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('h:i:s a', strtotime($appointment_time)) . " with " . $staff_first_name . " " . $staff_last_name;
+                    $subject = "Appointment Rescheduled for " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('H:i:s', strtotime($appointment_time)) . " with " . $staff_first_name . " " . $staff_last_name;
 
                     $confirm = mail($customer_email, $subject, $customer_edit_appointment_email_body, $headers);
                 }
@@ -820,7 +818,7 @@ if (isset($_POST['edit_appointment_submit'])) {
                     <div style="border-bottom:1px solid #e5e5e5;margin-bottom:20px;padding-bottom:15px">
                     <div style="display:inline-block;width:100%">
                     <label style="color:#788a95;font-size:15px">When:&nbsp;</label>
-                    <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('h:i:s a', strtotime($appointment_time)) . ' ' . $staff_timezone . '</p>
+                    <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('H:i:s', strtotime($appointment_time)) . ' ' . $staff_timezone . '</p>
                     </div>
                     <div style="display:inline-block;width:100%">
                     <label style="color:#788a95;font-size:15px">Service:&nbsp;</label>
@@ -878,7 +876,7 @@ if (isset($_POST['edit_appointment_submit'])) {
                         'Reply-To: ' . COMPANY_EMAIL . "\r\n" .
                         'X-Mailer: PHP/' . phpversion();
 
-                    $subject = "Appointment Scheduled for " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('h:i:s a', strtotime($appointment_time)) . " with " . $first_name . " " . $last_name;
+                    $subject = "Appointment Scheduled for " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('H:i:s', strtotime($appointment_time)) . " with " . $first_name . " " . $last_name;
 
                     $confirm = mail($staff_email, $subject, $staff_edit_appointment_email_body, $headers);
                 }
@@ -939,7 +937,7 @@ if (isset($_REQUEST['edit_appointment'])) {
                         <option value="">---Seleziona---</option>
                         <?php
                         //$provider = $db->get_all('users', array('visibility_status' => 'active', 'user_type' => 'staff', 'company_id' => $current_login_comopany_id));
-                        // $com_id=CURRENT_LOGIN_COMPANY_ID;
+                        $com_id=CURRENT_LOGIN_COMPANY_ID;
                         $provider = $db->run("SELECT* FROM `users` WHERE `visibility_status`='active' AND `company_id`='$com_id' AND `user_type`='staff' $mul_doctor_condition")->fetchAll();
                         if (is_array($provider)) {
                             foreach ($provider as $pro) {
@@ -1049,7 +1047,7 @@ if (isset($_REQUEST['edit_appointment'])) {
                                 ?>
                                 <option <?php if ($appointment_detail['appointment_time'] == date('H:i:s', strtotime($t))) {
                                     echo "selected='selected'";
-                                }; ?> value="<?php echo $t; ?>"><?php echo date('h:i A', strtotime($t)); ?></option>
+                                }; ?> value="<?php echo $t; ?>"><?php echo date('H:i:s', strtotime($t)); ?></option>
                             <?php }
                         }
                     }
@@ -1333,7 +1331,7 @@ if (isset($_POST['edit_booking_submit'])) {
             $staff_email = $db->get_var('users', array('user_id' => $service_provider), 'email');
 
             $event = "<b>Appuntamento riprogrammato.</b>  " . $first_name . " " . $last_name . " per " . $service_name . "<br>
-           il " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . "@" . date('h:i:s a', strtotime($appointment_time)) . " con " . $staff_first_name . " " . $staff_last_name;
+           il " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . "@" . date('H:i:s', strtotime($appointment_time)) . " con " . $staff_first_name . " " . $staff_last_name;
             $db->insert('activity_logs', array('user_id' => $_SESSION['user_id'],
                 'event_type' => 'appointment_updated',
                 'event' => $event,
@@ -1346,7 +1344,7 @@ if (isset($_POST['edit_booking_submit'])) {
             /********************************Apponitment Rescheduled email to customer*****************/
             if (is_array($common_data_customer_notification)) {
                 if (in_array('appointment_edited', $common_data_customer_notification)) {
-                    $customer_edit_appointment_email_body = '<table cellspacing="0" cellpadding="0" style="padding:30px 10px;background-color:rgb(238,238,238);width:100%;font-family:arial;background-repeat:initial initial">
+                    $customer_edit_appointment_email_body = '<table cellspacing="0" cellpadding="0" style="padding:30px 10px;background-color:rgb(238,238,238);width:100%;font-family:arial;background-repeat:initial;">
                 <tbody>
                 <tr> 
                 <td>
@@ -1374,7 +1372,7 @@ if (isset($_POST['edit_booking_submit'])) {
                 <div style="border-bottom:1px solid #e5e5e5;margin-bottom:20px;padding-bottom:15px">
                 <div style="display:inline-block;width:100%">
                 <label style="color:#788a95;font-size:15px">When:&nbsp;</label>
-                <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('h:i:s a', strtotime($appointment_time)) . ' ' . $customer_timezone . '</p>
+                <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('H:i:s', strtotime($appointment_time)) . ' ' . $customer_timezone . '</p>
                 </div>
                 <div style="display:inline-block;width:100%">
                 <label style="color:#788a95;font-size:15px">Service:&nbsp;</label>
@@ -1413,7 +1411,7 @@ if (isset($_POST['edit_booking_submit'])) {
                         'Reply-To: ' . COMPANY_EMAIL . "\r\n" .
                         'X-Mailer: PHP/' . phpversion();
 
-                    $subject = "Appointment Rescheduled for " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('h:i:s a', strtotime($appointment_time)) . " with " . $staff_first_name . " " . $staff_last_name;
+                    $subject = "Appointment Rescheduled for " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('H:i:s', strtotime($appointment_time)) . " with " . $staff_first_name . " " . $staff_last_name;
 
                     $confirm = mail($customer_email, $subject, $customer_edit_appointment_email_body, $headers);
                 }
@@ -1450,7 +1448,7 @@ if (isset($_POST['edit_booking_submit'])) {
                     <div style="border-bottom:1px solid #e5e5e5;margin-bottom:20px;padding-bottom:15px">
                     <div style="display:inline-block;width:100%">
                     <label style="color:#788a95;font-size:15px">When:&nbsp;</label>
-                    <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('h:i:s a', strtotime($appointment_time)) . ' ' . $staff_timezone . '</p>
+                    <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('H:i:s', strtotime($appointment_time)) . ' ' . $staff_timezone . '</p>
                     </div>
                     <div style="display:inline-block;width:100%">
                     <label style="color:#788a95;font-size:15px">Service:&nbsp;</label>
@@ -1508,7 +1506,7 @@ if (isset($_POST['edit_booking_submit'])) {
                         'Reply-To: ' . COMPANY_EMAIL . "\r\n" .
                         'X-Mailer: PHP/' . phpversion();
 
-                    $subject = "Appointment Scheduled for " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('h:i:s a', strtotime($appointment_time)) . " with " . $first_name . " " . $last_name;
+                    $subject = "Appointment Scheduled for " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('H:i:s', strtotime($appointment_time)) . " with " . $first_name . " " . $last_name;
 
                     $confirm = mail($staff_email, $subject, $staff_edit_appointment_email_body, $headers);
                 }
@@ -1663,7 +1661,7 @@ if (isset($_REQUEST['edit_booking'])) {
                                 ?>
                                 <option <?php if ($appointment_detail['appointment_time'] == date('H:i:s', strtotime($t))) {
                                     echo "selected='selected'";
-                                }; ?> value="<?php echo $t; ?>"><?php echo date('h:i A', strtotime($t)); ?></option>
+                                }; ?> value="<?php echo $t; ?>"><?php echo date('H:i:s', strtotime($t)); ?></option>
                             <?php }
                         }
                     }
@@ -1892,7 +1890,7 @@ if (isset($_POST['cancel_appointment_submit'])) {
         $appointment_company_id = $appont_details['company_id'];
 
         $event = "<b>Canceled appt.</b>  " . $first_name . " " . $last_name . " for a " . $service_name . " And Reason for cancellation is: " . $cancel_reason . " <br>
-        on " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . "@" . date('h:i:s a', strtotime($appointment_time)) . " w/ " . $staff_first_name . " " . $staff_last_name;
+        on " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . "@" . date('H:i:s', strtotime($appointment_time)) . " w/ " . $staff_first_name . " " . $staff_last_name;
 
         $db->insert('activity_logs', array('user_id' => $_SESSION['user_id'],
             'event_type' => 'appointment_deleted',
@@ -1943,7 +1941,7 @@ if (isset($_POST['cancel_appointment_submit'])) {
                 <div style="border-bottom:1px solid #e5e5e5;margin-bottom:20px;padding-bottom:15px">
                 <div style="display:inline-block;width:100%">
                 <label style="color:#788a95;font-size:15px">When:&nbsp;</label>
-                <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('h:i:s a', strtotime($appointment_time)) . ' ' . $customer_timezone . '</p>
+                <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('H:i:s', strtotime($appointment_time)) . ' ' . $customer_timezone . '</p>
                 </div>
                 <div style="display:inline-block;width:100%">
                 <label style="color:#788a95;font-size:15px">Service:&nbsp;</label>
@@ -1982,7 +1980,7 @@ if (isset($_POST['cancel_appointment_submit'])) {
                         'Reply-To: ' . COMPANY_EMAIL . "\r\n" .
                         'X-Mailer: PHP/' . phpversion();
 
-                    $subject = "Appointment Scheduled for " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('h:i:s a', strtotime($appointment_time)) . " with " . $staff_first_name . " " . $staff_last_name . " is Cancelled";
+                    $subject = "Appointment Scheduled for " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('H:i:s', strtotime($appointment_time)) . " with " . $staff_first_name . " " . $staff_last_name . " is Cancelled";
 
                     $confirm = mail($customer_email, $subject, $customer_delete_appointment_email_body, $headers);
 
@@ -2020,7 +2018,7 @@ if (isset($_POST['cancel_appointment_submit'])) {
                     <div style="border-bottom:1px solid #e5e5e5;margin-bottom:20px;padding-bottom:15px">
                     <div style="display:inline-block;width:100%">
                     <label style="color:#788a95;font-size:15px">When:&nbsp;</label>
-                    <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('h:i:s a', strtotime($appointment_time)) . ' ' . $staff_timezone . '</p>
+                    <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('H:i:s', strtotime($appointment_time)) . ' ' . $staff_timezone . '</p>
                     </div>
                     <div style="display:inline-block;width:100%">
                     <label style="color:#788a95;font-size:15px">Service:&nbsp;</label>
@@ -2078,7 +2076,7 @@ if (isset($_POST['cancel_appointment_submit'])) {
                         'Reply-To: ' . COMPANY_EMAIL . "\r\n" .
                         'X-Mailer: PHP/' . phpversion();
 
-                    $subject = "Appointment Scheduled on " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('h:i:s a', strtotime($appointment_time)) . " with " . $first_name . " " . $last_name . "  is Cancelled";
+                    $subject = "Appointment Scheduled on " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('H:i:s', strtotime($appointment_time)) . " with " . $first_name . " " . $last_name . "  is Cancelled";
 
                     $confirm = mail($staff_email, $subject, $staff_delete_appointment_email_body, $headers);
                 }
@@ -2126,7 +2124,7 @@ if (isset($_REQUEST['update_arrival_appointment'])) {
     $appointment_company_id = $appont_details['company_id'];
 
     $event = "<b>Canceled appt.</b>  " . $first_name . " " . $last_name . " for a " . $service_name . "<br>
-    on " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . "@" . date('h:i:s a', strtotime($appointment_time)) . " w/ " . $staff_first_name . " " . $staff_last_name;
+    on " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . "@" . date('H:i:s', strtotime($appointment_time)) . " w/ " . $staff_first_name . " " . $staff_last_name;
     $db->insert('activity_logs', array('user_id' => $_SESSION['user_id'],
         'event_type' => 'appointment_deleted',
         'event' => $event,
@@ -2279,7 +2277,7 @@ if (isset($_REQUEST['delete_appointment'])) {
     $appointment_company_id = $appont_details['company_id'];
 
     $event = "<b>Canceled appt.</b>  " . $first_name . " " . $last_name . " for a " . $service_name . "<br>
-    on " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . "@" . date('h:i:s a', strtotime($appointment_time)) . " w/ " . $staff_first_name . " " . $staff_last_name;
+    on " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . "@" . date('H:i:s', strtotime($appointment_time)) . " w/ " . $staff_first_name . " " . $staff_last_name;
     $db->insert('activity_logs', array('user_id' => $_SESSION['user_id'],
         'event_type' => 'appointment_deleted',
         'event' => $event,
@@ -2321,7 +2319,7 @@ if (isset($_REQUEST['delete_appointment'])) {
                 <div style="border-bottom:1px solid #e5e5e5;margin-bottom:20px;padding-bottom:15px">
                 <div style="display:inline-block;width:100%">
                 <label style="color:#788a95;font-size:15px">When:&nbsp;</label>
-                <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('h:i:s a', strtotime($appointment_time)) . ' ' . $customer_timezone . '</p>
+                <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('H:i:s', strtotime($appointment_time)) . ' ' . $customer_timezone . '</p>
                 </div>
                 <div style="display:inline-block;width:100%">
                 <label style="color:#788a95;font-size:15px">Service:&nbsp;</label>
@@ -2360,7 +2358,7 @@ if (isset($_REQUEST['delete_appointment'])) {
                     'Reply-To: ' . COMPANY_EMAIL . "\r\n" .
                     'X-Mailer: PHP/' . phpversion();
 
-                $subject = "Appuntamento prenotato il " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " alle ore " . date('h:i:s a', strtotime($appointment_time)) . " con " . $staff_first_name . " " . $staff_last_name . " è stato cancellato";
+                $subject = "Appuntamento prenotato il " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " alle ore " . date('H:i:s', strtotime($appointment_time)) . " con " . $staff_first_name . " " . $staff_last_name . " è stato cancellato";
 
                 $confirm = mail($customer_email, $subject, $customer_delete_appointment_email_body, $headers);
 
@@ -2398,7 +2396,7 @@ if (isset($_REQUEST['delete_appointment'])) {
                     <div style="border-bottom:1px solid #e5e5e5;margin-bottom:20px;padding-bottom:15px">
                     <div style="display:inline-block;width:100%">
                     <label style="color:#788a95;font-size:15px">When:&nbsp;</label>
-                    <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('h:i:s a', strtotime($appointment_time)) . ' ' . $staff_timezone . '</p>
+                    <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('H:i:s', strtotime($appointment_time)) . ' ' . $staff_timezone . '</p>
                     </div>
                     <div style="display:inline-block;width:100%">
                     <label style="color:#788a95;font-size:15px">Service:&nbsp;</label>
@@ -2456,7 +2454,7 @@ if (isset($_REQUEST['delete_appointment'])) {
                     'Reply-To: ' . COMPANY_EMAIL . "\r\n" .
                     'X-Mailer: PHP/' . phpversion();
 
-                $subject = "Appointment Scheduled on " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('h:i:s a', strtotime($appointment_time)) . " with " . $first_name . " " . $last_name . "  is Cancelled";
+                $subject = "Appointment Scheduled on " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('H:i:s', strtotime($appointment_time)) . " with " . $first_name . " " . $last_name . "  is Cancelled";
 
                 $confirm = mail($staff_email, $subject, $staff_delete_appointment_email_body, $headers);
             }
@@ -2752,7 +2750,7 @@ if (isset($_POST['assign_room_submit'])) {
                         <div style="border-bottom:1px solid #e5e5e5;margin-bottom:20px;padding-bottom:15px">
                         <div style="display:inline-block;width:100%">
                         <label style="color:#788a95;font-size:15px">When:&nbsp;</label>
-                        <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('h:i:s a', strtotime($appointment_time)) . ' ' . $customer_timezone . '</p>
+                        <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('H:i:s', strtotime($appointment_time)) . ' ' . $customer_timezone . '</p>
                         </div>
                         <div style="display:inline-block;width:100%">
                         <label style="color:#788a95;font-size:15px">Service:&nbsp;</label>
@@ -2791,7 +2789,7 @@ if (isset($_POST['assign_room_submit'])) {
                             'Reply-To: ' . COMPANY_EMAIL . "\r\n" .
                             'X-Mailer: PHP/' . phpversion();
 
-                        $subject = "Appointment Schedule Approved for " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('h:i:s a', strtotime($appointment_time)) . " with " . $staff_first_name . " " . $staff_last_name;
+                        $subject = "Appointment Schedule Approved for " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('H:i:s', strtotime($appointment_time)) . " with " . $staff_first_name . " " . $staff_last_name;
 
                         $confirm = mail($customer_email, $subject, $customer_add_appointment_email_body, $headers);
                     }
@@ -2829,7 +2827,7 @@ if (isset($_POST['assign_room_submit'])) {
                             <div style="border-bottom:1px solid #e5e5e5;margin-bottom:20px;padding-bottom:15px">
                             <div style="display:inline-block;width:100%">
                             <label style="color:#788a95;font-size:15px">When:&nbsp;</label>
-                            <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('h:i:s a', strtotime($appointment_time)) . ' ' . $staff_timezone . '</p>
+                            <p style="display:inline-block;margin:0;color:#637374;font-size:15px">' . date("d M Y", strtotime($appointment_date)) . ' ' . date('H:i:s', strtotime($appointment_time)) . ' ' . $staff_timezone . '</p>
                             </div>
                             <div style="display:inline-block;width:100%">
                             <label style="color:#788a95;font-size:15px">Service:&nbsp;</label>
@@ -2889,7 +2887,7 @@ if (isset($_POST['assign_room_submit'])) {
                             'Reply-To: ' . COMPANY_EMAIL . "\r\n" .
                             'X-Mailer: PHP/' . phpversion();
 
-                        $subject = "Appointment Schedule Approved for " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('h:i:s a', strtotime($appointment_time)) . " with " . $first_name . " " . $last_name;
+                        $subject = "Appointment Schedule Approved for " . date(COMMON_DATE_FORMAT, strtotime($appointment_date)) . " " . date('H:i:s', strtotime($appointment_time)) . " with " . $first_name . " " . $last_name;
 
                         $confirm = mail($staff_email, $subject, $staff_add_appointment_email_body, $headers);
                     }
@@ -2969,7 +2967,7 @@ if (isset($_POST['load_time_range'])) {
         if (is_array($times)) {
             foreach ($times as $t) {
                 ?>
-                <option value="<?php echo $t; ?>" <?php echo (in_array($t, $booked_slots)) ? "disabled" : '' ?> ><?php echo date('h:i A', strtotime($t)); ?></option>
+                <option value="<?php echo $t; ?>" <?php echo (in_array($t, $booked_slots)) ? "disabled" : '' ?> ><?php echo date('H:i:s', strtotime($t)); ?></option>
             <?php }
         }
     }

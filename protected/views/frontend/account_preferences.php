@@ -37,7 +37,7 @@ $end_date = date('Y-m-d');
         $cid = CURRENT_LOGIN_COMPANY_ID;
         $bedquery = "SELECT *
      FROM `appointments`
-     WHERE `appointment_date` between '$start_date' And '$end_date' AND `company_id`='$cid'";
+     WHERE `appointment_date` between '$start_date' And '$end_date' AND `company_id`='$cid' AND status!='deleted'";
         if ($service != "") {
             $bedquery .= "AND service_id='$service'";
         }
@@ -46,11 +46,10 @@ $end_date = date('Y-m-d');
         }
         $bedquery .= "order by `id` DESC";
         $all_appointment_history = $db->run($bedquery)->fetchAll();
-
-
     }
     // $all_appointment_history=$db->get_all('appointments');
-} ?>
+}
+?>
 <?php if (isset($_POST['revenue_export_submit'])) {
     $start_date = date('Y-m-d', strtotime($_POST['start_date']));
     $end_date = date('Y-m-d', strtotime($_POST['end_date']));;
@@ -86,7 +85,7 @@ $end_date = date('Y-m-d');
 
         $bedquery_pr = "SELECT SUM(`service_cost`)
         FROM `appointments`
-        WHERE `appointment_date` between '$start_date' And '$end_date' AND `company_id`='$cid'";
+        WHERE `appointment_date` between '$start_date' And '$end_date' AND `company_id`='$cid'  AND status!='deleted'";
 
         $projected_revenue_sum = $db->run($bedquery_pr)->fetchColumn();
 
@@ -95,7 +94,7 @@ $end_date = date('Y-m-d');
         // WHERE `appointment_date` between '$start_date' And '$end_date' AND `company_id`='$cid' AND `payment_status`='unpaid' OR `payment_status`='paid'";
 
         $company_id = CURRENT_LOGIN_COMPANY_ID;
-        $sql = "SELECT SUM(payment_amount) FROM `payments` LEFT JOIN `appointments` ON payments.appointment_id = appointments.id WHERE appointments.appointment_date between '$start_date' And '$end_date' AND payments.company_id='$cid'";
+        $sql = "SELECT SUM(payment_amount) FROM `payments` LEFT JOIN `appointments` ON payments.appointment_id = appointments.id WHERE appointments.appointment_date between '$start_date' And '$end_date' AND payments.company_id='$cid'  AND status!='deleted'";
 
         // $payments_appointments=$db->run($sql)->fetchAll();
 
@@ -507,7 +506,7 @@ $end_date = date('Y-m-d');
 
                                     $html .= "<tbody>
                 <tr style='border-top:1px solid #ccc;'>
-                <td>" . $appointment_date . "</td>
+                <td>" . date("d/m/Y", strtotime($appointment_date)) . "</td>
                 <td >" . $appointment_time . "-" . $service_end_time . "</td>
                 <td >" . $service_provider_fullname . "</td>
                 <td>" . $customer_fullname . "</td>
@@ -594,11 +593,11 @@ $end_date = date('Y-m-d');
                                     $service_status = $aa['status'];
                                     $balance = $aa['balance'];
                                     $appointment_date = $aa['appointment_date'];
-                                    $appointment_time = date('h:i a', strtotime($aa['appointment_time']));
+                                    $appointment_time = date('H:i:s', strtotime($aa['appointment_time']));
 
                                     $service_time = "+" . $aa['service_time'] . " minutes";
                                     $endTime = strtotime($service_time, strtotime($aa['appointment_time']));
-                                    $service_end_time = date('h:i a', $endTime);
+                                    $service_end_time = date('H:i:s', $endTime);
                                     $booking_id = $aa['booking_id'];
                                     $service_total = ($service_total + $service_cost);
                                     $confirm_rev = $service_cost - $balance;

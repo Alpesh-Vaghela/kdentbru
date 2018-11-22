@@ -89,7 +89,7 @@ $staring_time = array();
 
                                         $appointment_date_change = date('Y-m-d', strtotime($appointment_date));
 
-                                        $sql = "SELECT* FROM `appointments` WHERE  `staff_id`='$user_id'  AND `appointment_date`='$appointment_date_change'";
+                                        $sql = "SELECT* FROM `appointments` WHERE  `staff_id`='$user_id'  AND status!='deleted' AND `appointment_date`='$appointment_date_change'";
                                         $p_apponiments = $db->run($sql)->fetchAll();
                                         foreach ($p_apponiments as $p_a) {
                                             array_push($staring_time, $p_a['appointment_time']);
@@ -186,10 +186,10 @@ $staring_time = array();
                                                     $user_id = $p['user_id'];
 
                                                     $appointment_date_change = date('Y-m-d', strtotime($appointment_date));
-                                                    $sql = "SELECT* FROM `appointments` WHERE `staff_id`='$user_id' AND `appointment_date`='$appointment_date_change' AND `appointment_time`='$appointment_time'";
+                                                    $sql = "SELECT* FROM `appointments` WHERE `staff_id`='$user_id' AND `appointment_date`='$appointment_date_change' AND `appointment_time`='$appointment_time' AND status!='deleted'";
                                                     $p_apponiments = $db->run($sql)->fetch();
                                                     if ($p_apponiments['appointment_time'] == "") {
-                                                        $sql = "SELECT* FROM `appointments` WHERE `staff_id`='$user_id' AND `appointment_date`='$appointment_date_change' AND `appointment_time`<='$appointment_time' AND `appointment_end_time`>='$appointment_time'";
+                                                        $sql = "SELECT* FROM `appointments` WHERE `staff_id`='$user_id' AND `appointment_date`='$appointment_date_change' AND `appointment_time`<='$appointment_time' AND `appointment_end_time`>='$appointment_time' AND status!='deleted'";
                                                         $p_apponiments = $db->run($sql)->fetch();
 
                                                     }

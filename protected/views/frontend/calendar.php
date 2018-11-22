@@ -286,7 +286,6 @@ if ($_SESSION['user_type'] == "staff") {
                         <div class="col-md-3 ">
                             <!--   <input class="form-control" type="time" name="appointment_time" value=""> -->
                             <?php
-
                             $company_id = $db->get('users', array('user_id' => $_SESSION['user_id']), 'company_id');
                             if (!empty($receiptnistAccess)) {
                                 $time_slots = array(array('custom_time_slot' => 5));
@@ -310,7 +309,7 @@ if ($_SESSION['user_type'] == "staff") {
 
                                 if (is_array($times)) {
                                     foreach ($times as $t) { ?>
-                                        <option value="<?php echo $t; ?>" <?php echo (in_array($t, $booked_slots)) ? "disabled" : '' ?> ><?php echo date('h:i A', strtotime($t)); ?></option>
+                                        <option value="<?php echo $t; ?>" <?php echo (in_array($t, $booked_slots)) ? "disabled" : '' ?> ><?php echo date('H:i:s', strtotime($t)); ?></option>
                                     <?php }
                                 }
                                 ?>
