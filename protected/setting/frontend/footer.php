@@ -300,7 +300,7 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                 droppable: true, // this allows things to be dropped onto the calendar
                 eventDrop: function (event, delta, revertFunc) {
                     $(".popover").remove();
-                    $.post('<?php echo $link->link('ajax', frontend);?>&edit=appointment_date&id=' + event.id + '&appointment_date=' + event.start.format('YYYY-M-D'));
+                    $.post('<?php echo $link->link('ajax', frontend);?>&edit=appointment_date&id=' + event.id + '&appointment_start_date_time=' + event.start.format() + '&appointment_end_date_time=' + event.end.format());
                 },
                 defaultView: '<?php
                     if (DEFAULT_CALENDAR == "daily") {

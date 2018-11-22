@@ -9,7 +9,12 @@ $receiptnistTimeSlot = array(array('custom_time_slot' => 5));
 <?php
 
 if (isset($_REQUEST['edit']) && $_REQUEST['edit'] == "appointment_date") {
-    $db->update('appointments', array('appointment_date' => $_REQUEST['appointment_date']), array('id' => $_REQUEST['id']));
+    list($appointment_date, $appointment_time) = explode("T", $_REQUEST['appointment_start_date_time']);
+    list($appointment_end_date, $appointment_end_time) = explode("T", $_REQUEST['appointment_end_date_time']);
+    //$db->update('appointments', array('id' => $_REQUEST['id']), array('appointment_date' => $appointment_date, "appointment_time" => $appointment_time, "appointment_end_time" => $appointment_end_time));
+    $updateSQL = "UPDATE `appointments` SET `appointment_date`='".$appointment_date."',`appointment_time`='".$appointment_time."',`appointment_end_time`='".$appointment_end_time."' WHERE id='".$_REQUEST['id']."'";
+    //die($updateSQL);
+    $db->run($updateSQL);
     die("OK");
 }
 

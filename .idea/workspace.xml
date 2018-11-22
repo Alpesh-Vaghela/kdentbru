@@ -2,1190 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c04886-22bd-4f84-9f7b-d0832caf6ab3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kdentbru.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml___jb_tmp___" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/Loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/css/bootstrap-colorpicker-plus.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/css/bootstrap-colorpicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/css/demo/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/css/demo/gamma-gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/css/demo/icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/css/demo/jasmine.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/css/demo/jquery-steps.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/css/demo/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/css/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/css/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/css/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/css/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/css/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/css/pricing_bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/css/pricing_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/data/bs-table-simple.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/data/bs-table.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/data/datatables.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/default_image/default_user_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/fb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/google_login/oauthpopup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/google_login/signin_google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/iframe/booking_FancyBoxCloseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/iframe/booking_iframe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/iframe/booking_iframe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/appointment-book-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/av1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/av2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/av3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/av4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/av5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/av6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/av7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/flags/france.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/flags/germany.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/flags/italy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/flags/spain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/flags/united-kingdom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/gamma/large/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/gamma/loader-dark.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/gamma/loader-light.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/gamma/medium/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/gamma/medium/gallery-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/gamma/medium/gallery-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/gamma/medium/gallery-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/gamma/medium/gallery-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/gamma/medium/gallery-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/gamma/medium/gallery-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/gamma/medium/gallery-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/gamma/medium/gallery-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/gamma/medium/gallery-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/gamma/small/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/gamma/xlarge/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/gamma/xsmall/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/gamma/xxlarge/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/gamma/xxxlarge/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/photos/big-user-image-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/photos/big-user-image-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/photos/big-user-image-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/photos/big-user-image-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/photos/big-user-image-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/photos/big-user-image-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/photos/big-user-image-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/photos/big-user-image-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/photos/big-user-image-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/photos/big-user-image-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/photos/big-user-image-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/photos/big-user-image-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/photos/big-user-image-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/photos/big-user-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/photos/profile-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/photos/profile-pic-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/photos/profile-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/thumbs/3.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/thumbs/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/thumbs/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/thumbs/img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/thumbs/img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/thumbs/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/img/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/bootstrap-colorpicker-plus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/bootstrap-colorpicker-plus.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/bootstrap-colorpicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/charts-flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/charts-morris.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/dashboard-v2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/form-component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/form-layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/form-switchery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/form-validation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/form-wizard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/fullcalendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/mail-compose.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/mail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/maps-vectormap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/misc-gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/pages-gallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/pages-register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/tables-bs-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/tables-datatables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/tables-footable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/ui-animation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/ui-dragdrop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/ui-modals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/ui-nested-lists.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/ui-notification.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/ui-panels.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/ui-tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/ui-typography.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/widgets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/wizard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/demo/x-editable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/jquery-1.11.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/jquery-2.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/jquery-bootstrap-modal-steps.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/jquery-migrate-1.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/jquery-ui-1.9.2.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/jquery-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/modernizr.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/moment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/animate-css/animate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootbox/bootbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-datepicker/bootstrap-datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-datepicker/bootstrap-datepicker.it.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-datepicker/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-datepicker/local-it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-datepicker/moment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-select/bootstrap-select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-select/bootstrap-select.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-select/bootstrap-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-select/bootstrap-select.js.map.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-select/bootstrap-select.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-select/bootstrap-select.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-table/bootstrap-table.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-table/bootstrap-table.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-table/extensions/editable/bootstrap-table-editable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-timepicker/bootstrap-timepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-timepicker/bootstrap-timepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-timepicker/moment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-validator/bootstrapValidator.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-validator/bootstrapValidator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap3-editable/css/bootstrap-editable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap3-editable/img/clear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap3-editable/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap3-editable/js/bootstrap-editable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/bootstrap3-editable/js/bootstrap-editable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/chosen/chosen-sprite.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/chosen/chosen-sprite@2x.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/chosen/chosen.jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/chosen/chosen.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/data-tables/DT_bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/data-tables/DT_bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/data-tables/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/data-tables/images/sort_asc_disabled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/data-tables/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/data-tables/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/data-tables/images/sort_desc_disabled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/data-tables/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/datatables/media/css/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/datatables/media/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/datatables/media/images/sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/datatables/media/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/datatables/media/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/datatables/media/images/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/datatables/media/js/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/datatables/media/js/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/dropzone/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/dropzone/dropzone.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/easy-pie-chart/jquery.easypiechart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/editable-table/editable-table-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/editable-table/editable-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/editable-table/mindmup-editabletable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/editable-table/numeric-input-example.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/fast-click/fastclick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/flot-charts/jquery.flot.categories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/flot-charts/jquery.flot.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/flot-charts/jquery.flot.orderBars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/flot-charts/jquery.flot.pie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/flot-charts/jquery.flot.resize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/flot-charts/jquery.flot.selection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/flot-charts/jquery.flot.spline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/flot-charts/jquery.flot.stack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/flot-charts/jquery.flot.time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/flot-charts/jquery.flot.tooltip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/font-awesome/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/font-awesome/fonts/fontawesome-webfonte0a5.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/font-awesome/fonts/fontawesome-webfonte0a5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/font-awesome/fonts/fontawesome-webfonte0a5.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/font-awesome/fonts/fontawesome-webfonte0a5.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/font-awesome/fonts/fontawesome-webfonte0a5.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/fooTable/css/fonts/footable.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/fooTable/css/fonts/footable.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/fooTable/css/fonts/footable.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/fooTable/css/fonts/footable.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/fooTable/css/fonts/footabled41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/fooTable/css/footable.core.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/fooTable/dist/footable.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/fullcalendar/fullcalendar-columns.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/fullcalendar/fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/fullcalendar/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/fullcalendar/lib/jquery-ui.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/fullcalendar/lib/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/fullcalendar/locale-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/fullcalendar/scheduler.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/fullcalendar/scheduler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/gamma-gallery/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/gamma-gallery/css/noJS.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/gamma-gallery/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/gamma-gallery/js/gamma.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/gamma-gallery/js/jquery.history.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/gamma-gallery/js/jquery.masonry.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/gamma-gallery/js/jquerypp.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/gamma-gallery/js/js-url.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/gamma-gallery/js/modernizr.custom.70736.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/gauge-js/gauge.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/gmaps/gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/gmaps/gmaps.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/gmaps/gmaps.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/ion-rangeslider/img/sprite-skin-flat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/ion-rangeslider/img/sprite-skin-modern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/ion-rangeslider/img/sprite-skin-nice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/ion-rangeslider/img/sprite-skin-simple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/ion-rangeslider/ion.rangeSlider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/ion-rangeslider/ion.rangeSlider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/ion-rangeslider/ion.rangeSlider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/ion-rangeslider/ion.rangeSlider.skinFlat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/ion-rangeslider/ion.rangeSlider.skinHTML5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/ion-rangeslider/ion.rangeSlider.skinModern.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/ion-rangeslider/ion.rangeSlider.skinNice.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/ion-rangeslider/ion.rangeSlider.skinSimple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/ion-rangeslider/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/examples/allow-page-scroll.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/examples/chaining.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/examples/disable-fade-out.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/examples/dynamic-content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/examples/height-width.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/examples/libs/prettify/prettify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/examples/libs/prettify/prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/examples/mouse-wheel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/examples/multiple-elements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/examples/navigation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/examples/nested.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/examples/programmatic-scrolling.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/examples/rail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/examples/scroll-events.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/examples/scrollbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/examples/start-position.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/examples/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/jquery.slimscroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jQuery-slimScroll/jquery.slimscroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-count-to/jquery.count-to.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-nestable/jquery.nestable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-nestable/jquery.nestable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-nestable/jquery.nestable.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-nestable/jquery.nestable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-print/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-print/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-print/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-print/demo/css/normalize.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-print/demo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-print/demo/js/vendor/html5-3.6-respond-1.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-print/demo/js/vendor/jquery-1.9.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-print/jQuery.print.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/css/detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/css/detail.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/css/graph.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/css/graph.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/css/legend.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/css/legend.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/css/rickshaw.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/css/rickshaw.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/jquery.ricksaw.init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Class.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Class.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Color.Palette.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Color.Palette.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Compat.ClassList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Compat.ClassList.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Fixtures.Color.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Fixtures.Color.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Fixtures.Number.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Fixtures.Number.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Fixtures.RandomData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Fixtures.RandomData.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Fixtures.Time.Local.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Fixtures.Time.Local.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Fixtures.Time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Fixtures.Time.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Ajax.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Annotate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Annotate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Axis.Time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Axis.Time.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Axis.X.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Axis.X.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Axis.Y.Scaled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Axis.Y.Scaled.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Axis.Y.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Axis.Y.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Behavior.Series.Highlight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Behavior.Series.Highlight.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Behavior.Series.Order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Behavior.Series.Order.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Behavior.Series.Toggle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Behavior.Series.Toggle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.HoverDetail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.HoverDetail.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.JSONP.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.JSONP.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Legend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Legend.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.RangeSlider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.RangeSlider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Renderer.Area.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Renderer.Area.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Renderer.Bar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Renderer.Bar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Renderer.Line.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Renderer.Line.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Renderer.LinePlot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Renderer.LinePlot.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Renderer.Multi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Renderer.Multi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Renderer.ScatterPlot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Renderer.ScatterPlot.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Renderer.Stack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Renderer.Stack.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Renderer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Renderer.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Smoother.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Smoother.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Unstacker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.Unstacker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Graph.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Series.FixedDuration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Series.FixedDuration.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.Series.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/Rickshaw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/d3.layout.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/d3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/d3.v2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/d3.v2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/d3.v3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/extensions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/extensions.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/raphael-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/raphael-min.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/js/rickshaw.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/ricksaw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/rickshaw.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/rickshaw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/rickshaw.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-ricksaw-chart/rickshaw.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-steps/jquery-steps.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-tocify/css/tocify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-tocify/js/jquery.tocify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jquery-tocify/js/jquery.tocify.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jvectormap/jquery-jvectormap-ar-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jvectormap/jquery-jvectormap-au-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jvectormap/jquery-jvectormap-de-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jvectormap/jquery-jvectormap-north_america-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jvectormap/jquery-jvectormap-uk_countries-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jvectormap/jquery-jvectormap-us-aea-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jvectormap/jquery-jvectormap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/jvectormap/jquery-jvectormap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/masked-input/bootstrap-inputmask.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/masked-input/jquery.maskedinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/masked-input/jquery.maskedinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/.verb.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/.versions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/Gruntfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/dist/metisMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/dist/metisMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/dist/metisMenu.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/dist/metisMenu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/dist/metisMenu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/metismenu.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/metismenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/metismenu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/package.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/src/metisMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/src/metisMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/test/animate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/test/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/test/event.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/test/hover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/test/metisFolder.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/test/metisFolder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/test/mini.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/test/mini.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/metismenu/test/zurb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/moment-range/moment-range.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/moment/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/morris-js/morris.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/morris-js/morris.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/morris-js/raphael-js/raphael.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/.csslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/Gruntfile.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/_SpecRunner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bin/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bin/css/nanoscroller.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bin/css/nanoscroller.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bin/css/nanoscroller.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bin/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bin/dev.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bin/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bin/images/gh-ribbon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bin/images/h1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bin/javascripts/ga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bin/javascripts/jquery.nanoscroller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bin/javascripts/jquery.nanoscroller.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bin/javascripts/jquery.nanoscroller.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bin/javascripts/jquery.nanoscroller.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bin/javascripts/jquery.nanoscroller.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bin/javascripts/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bin/javascripts/overthrow.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bin/readme.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/coffeescripts/jquery.nanoscroller.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/assets/css/external-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/assets/css/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/assets/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/assets/img/spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/assets/js/api-filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/assets/js/api-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/assets/js/api-search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/assets/js/apidocs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/assets/js/yui-prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/assets/vendor/prettify/CHANGES.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/assets/vendor/prettify/COPYING" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/assets/vendor/prettify/README.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/assets/vendor/prettify/prettify-min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/assets/vendor/prettify/prettify-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/classes/NanoScroll.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/files/bin_javascripts_jquery.nanoscroller.js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/docs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/fig1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/jquery.nanoscroller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/jquery.nanoscroller.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/nanoscroller.jquery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/tests/SpecRunner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/tests/coffeescripts/nano-spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/tests/lib/jasmine-1.3.1/MIT.LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/tests/lib/jasmine-1.3.1/jasmine-html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/tests/lib/jasmine-1.3.1/jasmine.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/tests/lib/jasmine-1.3.1/jasmine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/tests/lib/jasmine-jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/tests/lib/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/tests/spec/fixtures/nano-content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/tests/spec/fixtures/nano-no-content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/nanoscrollerjs/tests/spec/nano-spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noUiSlider/jquery.nouislider.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noUiSlider/jquery.nouislider.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noUiSlider/jquery.nouislider.pips.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noUiSlider/nouislider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noUiSlider/nouislider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/Gruntfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/README.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/allLayouts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/allTypes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/api.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/buttons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/consumingAlert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/customContainer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/jquery-1.7.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/jquery-1.8.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/killer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/notification_html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/themeBootstrap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/themeCss.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/usingMaxVisible.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/usingWithAnimate.css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/usingWithButtons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/usingWithButtons2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/usingWithModal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/demo/usingWithOldOptions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/noty.jquery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty-master/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty/jquery.noty.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty/layouts/bottom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty/layouts/bottomCenter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty/layouts/bottomLeft.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty/layouts/bottomRight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty/layouts/center.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty/layouts/centerLeft.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty/layouts/centerRight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty/layouts/inline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty/layouts/top.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty/layouts/topCenter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty/layouts/topLeft.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty/layouts/topRight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty/packaged/jquery.noty.packaged.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty/packaged/jquery.noty.packaged.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty/promise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty/themes/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty/themes/default.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/noty/themes/relax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/pace/pace.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/pace/pace.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/parsley/parsley.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/bars.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/colors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/css/extensions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/css/lines.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/data/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/data/data.jsonp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/data/data2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/data/status.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/extensions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/fixed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/formatter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/gaps.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/hover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/images/interp_cardinal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/images/interp_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/images/interp_step.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/images/offset_pct.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/images/offset_stack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/images/offset_stream.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/images/offset_value.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/images/om_bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/images/om_curves.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/images/om_lines.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/images/om_percent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/images/om_scatter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/images/om_stack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/images/om_step.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/images/om_stream.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/inconsistent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/js/extensions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/jsonp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/legend.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/lineplot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/lines.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/logscale.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/milliseconds.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/multi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/negative.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/refresh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/resize.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/scaled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/scatterplot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/screenshots/ajax.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/screenshots/colors.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/screenshots/extensions.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/screenshots/lines.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/screenshots/logscale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/screenshots/scaled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/screenshots/scatterplot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/screenshots/simple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/screenshots/start.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/screenshots/status.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/screenshots/stops.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/screenshots/y_axis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/series.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/socket.io/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/socket.io/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/socket.io/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/socket.io/socket.io.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/sparse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/start.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/status.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/stops.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/timescale.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/x_axis.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/examples/y_axis.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/rickshaw.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/rickshaw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/rickshaw.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/rickshaw.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/css/detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/css/graph.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/css/legend.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/helpers/endUMD.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/helpers/startUMD.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Fixtures.Number.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Fixtures.RandomData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Fixtures.Time.Local.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Fixtures.Time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Annotate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Axis.Time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Axis.X.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Axis.Y.Scaled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Axis.Y.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Behavior.Series.Highlight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Behavior.Series.Order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Behavior.Series.Toggle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.HoverDetail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.JSONP.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Legend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.RangeSlider.Preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.RangeSlider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Renderer.Area.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Renderer.Bar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Renderer.Line.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Renderer.LinePlot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Renderer.Multi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Renderer.ScatterPlot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Renderer.Stack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Renderer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Smoother.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.Socketio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Graph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Series.FixedDuration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.Series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/Rickshaw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/rickshaw.Class.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/rickshaw.Color.Palette.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/rickshaw.Compat.ClassList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/src/js/rickshaw.Fixtures.Color.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/vendor/d3.layout.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/vendor/d3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/vendor/d3.v2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/rickshaw-master/vendor/d3.v3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/screenfull/screenfull.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/skycons/skycons.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/sparkline/jquery.sparkline.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/summernote/summernote.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/summernote/summernote.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/switchery/switchery.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/switchery/switchery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/tag-it/jquery.tagit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/tag-it/tag-it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/tag-it/tag-it.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/typeahead/typeahead.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/weather-icons/font/WeatherIcons-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/weather-icons/font/weathericons-regular-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/weather-icons/font/weathericons-regular-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/weather-icons/font/weathericons-regular-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/weather-icons/font/weathericons-regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/weather-icons/weather-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/weather-icons/weather-icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/x-editable/css/bootstrap-editable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/x-editable/img/clear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/x-editable/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/x-editable/js/bootstrap-editable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/plugins/x-editable/js/bootstrap-editable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/rating/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/rating/star rating.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/rating/star-rating.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/rating/star-rating.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/frontend/yahoo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/installation/css/installstyles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/installation/css/switchery.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/installation/images/-text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/installation/images/accournal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/installation/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/installation/images/fancybox_overlay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/installation/js/switchery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/loader/l1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/loader/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/loader/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/loader/loading_new.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/loader/reload.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company_booking_calendar_ajax.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company_booking_page_calendar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/festivals.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kdentbru.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/controller/backend/changepassword_controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/controller/backend/forgot_password_controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/controller/backend/profile_controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/controller/backend/site_setting_controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/controller/frontend/-customers_controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/controller/frontend/add_customer_controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/controller/frontend/changepassword_controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/controller/frontend/customers_controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/controller/frontend/forgot_password_controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/controller/frontend/login_controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/controller/frontend/profile_controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/controller/installation/installation_controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/controller/installation/installation_final_controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/classes/barcode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/classes/bmp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/classes/directw.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/classes/form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/classes/gif.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/classes/grad.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/classes/indic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/classes/meter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/classes/svg.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/classes/tocontents.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/classes/ttfontsuni.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/classes/ttfontsuni_analysis.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/classes/wmf.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/compress.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/config_cp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/config_fonts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/font/ccourier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/font/ccourierb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/font/ccourierbi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/font/ccourieri.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/font/chelvetica.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/font/chelveticab.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/font/chelveticabi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/font/chelveticai.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/font/csymbol.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/font/ctimes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/font/ctimesb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/font/ctimesbi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/font/ctimesi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/font/czapfdingbats.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/graph.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/iccprofiles/SWOP2006_Coated5v2.icc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/iccprofiles/sRGB_IEC61966-2-1.icc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/includes/CJKdata.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/includes/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/includes/ind_bn_1_001.volt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/includes/ind_gu_1_001.volt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/includes/ind_hi_1_001.volt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/includes/ind_kn_1_001.volt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/includes/ind_ml_1_001.volt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/includes/ind_or_1_001.volt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/includes/ind_pa_1_001.volt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/includes/ind_ta_1_001.volt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/includes/ind_te_1_001.volt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/includes/no_image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/includes/out.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/includes/subs_core.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/includes/subs_win-1252.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/includes/upperCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/mpdf.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/mpdf.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/mpdfi/filters/FilterASCII85.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/mpdfi/filters/FilterLZW.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/mpdfi/fpdi_pdf_parser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/mpdfi/pdf_context.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/mpdfi/pdf_parser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/patterns/de.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/patterns/en.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/patterns/es.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/patterns/fi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/patterns/fr.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/patterns/it.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/patterns/nl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/patterns/pl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/patterns/ru.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/patterns/sv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/MPDF/progbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/account_class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/db_class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/feature_class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/form_validations_class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/geomap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/lib/Google_Client.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/lib/Google_Oauth2Service.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/lib/auth/Google_Auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/lib/auth/Google_OAuth2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/lib/auth/Google_Service.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/lib/auth/Google_Utils.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/lib/cache/Google_Cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/lib/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/lib/io/Google_IO.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/lib/io/cacerts.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/links_class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/password_class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/search_class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/session_class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Authentication/AccessToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Authentication/AccessTokenMetadata.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Authentication/OAuth2Client.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Exceptions/FacebookAuthenticationException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Exceptions/FacebookAuthorizationException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Exceptions/FacebookClientException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Exceptions/FacebookOtherException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Exceptions/FacebookResponseException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Exceptions/FacebookResumableUploadException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Exceptions/FacebookSDKException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Exceptions/FacebookServerException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Exceptions/FacebookThrottleException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Facebook.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/FacebookApp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/FacebookBatchRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/FacebookBatchResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/FacebookClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/FacebookRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/FacebookResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/FileUpload/FacebookFile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/FileUpload/FacebookResumableUploader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/FileUpload/FacebookTransferChunk.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/FileUpload/FacebookVideo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/FileUpload/Mimetypes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/GraphNodes/Birthday.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/GraphNodes/Collection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/GraphNodes/GraphAchievement.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/GraphNodes/GraphAlbum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/GraphNodes/GraphApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/GraphNodes/GraphCoverPhoto.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/GraphNodes/GraphEdge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/GraphNodes/GraphEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/GraphNodes/GraphGroup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/GraphNodes/GraphList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/GraphNodes/GraphLocation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/GraphNodes/GraphNode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/GraphNodes/GraphNodeFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/GraphNodes/GraphObject.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/GraphNodes/GraphObjectFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/GraphNodes/GraphPage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/GraphNodes/GraphPicture.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/GraphNodes/GraphSessionInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/GraphNodes/GraphUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Helpers/FacebookCanvasHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Helpers/FacebookJavaScriptHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Helpers/FacebookPageTabHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Helpers/FacebookRedirectLoginHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Helpers/FacebookSignedRequestFromInputHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Http/GraphRawResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Http/RequestBodyInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Http/RequestBodyMultipart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Http/RequestBodyUrlEncoded.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/HttpClients/FacebookCurl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/HttpClients/FacebookCurlHttpClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/HttpClients/FacebookGuzzleHttpClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/HttpClients/FacebookHttpClientInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/HttpClients/FacebookStream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/HttpClients/FacebookStreamHttpClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/HttpClients/HttpClientsFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/HttpClients/certs/DigiCertHighAssuranceEVRootCA.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/PersistentData/FacebookMemoryPersistentDataHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/PersistentData/PersistentDataFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/PersistentData/PersistentDataInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/PseudoRandomString/OpenSslPseudoRandomStringGenerator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/PseudoRandomString/PseudoRandomStringGeneratorFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/PseudoRandomString/PseudoRandomStringGeneratorInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/PseudoRandomString/PseudoRandomStringGeneratorTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/PseudoRandomString/RandomBytesPseudoRandomStringGenerator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/PseudoRandomString/UrandomPseudoRandomStringGenerator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/SignedRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Url/FacebookUrlDetectionHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Url/FacebookUrlManipulator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/Url/UrlDetectionInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/src/Facebook/polyfills.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/init.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Account.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/AlipayAccount.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/ApiRequestor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/ApiResource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/ApiResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/ApplePayDomain.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/ApplicationFee.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/ApplicationFeeRefund.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/AttachedObject.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Balance.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/BalanceTransaction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/BankAccount.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/BitcoinReceiver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/BitcoinTransaction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Card.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Charge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Collection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/CountrySpec.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Coupon.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Customer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Dispute.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/EphemeralKey.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Error/Api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Error/ApiConnection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Error/Authentication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Error/Base.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Error/Card.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Error/InvalidRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Error/OAuth/InvalidClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Error/OAuth/InvalidGrant.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Error/OAuth/InvalidRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Error/OAuth/InvalidScope.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Error/OAuth/OAuthBase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Error/OAuth/UnsupportedGrantType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Error/OAuth/UnsupportedResponseType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Error/Permission.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Error/RateLimit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Error/SignatureVerification.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Event.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/ExternalAccount.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/FileUpload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/HttpClient/ClientInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/HttpClient/CurlClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Invoice.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/InvoiceItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/JsonSerializable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/LoginLink.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/OAuth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Order.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/OrderReturn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Payout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Plan.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Recipient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/RecipientTransfer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Refund.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/SKU.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/SingletonApiResource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Source.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Stripe.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/StripeObject.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Subscription.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/SubscriptionItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/ThreeDSecure.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Token.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Transfer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/TransferReversal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Util/AutoPagingIterator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Util/DefaultLogger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Util/LoggerInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Util/RequestOptions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Util/Set.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Util/Util.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/Webhook.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/stripe/lib/WebhookSignature.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/library/upload_class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/setting/backend/common_data.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/setting/backend/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/setting/backend/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/setting/backendcases.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/setting/chimpudb.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/setting/chimpulock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/setting/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/setting/frontend/assign_roles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/setting/frontend/common_data.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/setting/frontend/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/setting/frontend/footer1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/setting/frontend/frontend_common_data.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/setting/frontend/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/setting/frontendcases.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/setting/globals.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/setting/google_login_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/setting/installationcases.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/setting/router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/account_preferences.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/activity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/ajax.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/calendar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/calendar_day.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/changepassword.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/company.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/company_detail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/customers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/edit_customer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/edit_service.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/forgot_password.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/modal_box.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/pdfgenerate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/plans.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/profile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/quick_booking.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/reviews.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/rooms_seats.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/site_setting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/backend/staff.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/account_preferences.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/activity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/add_category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/add_customer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/add_service.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/ajax.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/calendar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/calendar_day.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/cancel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/changepassword.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/company_booking_page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/company_booking_page_calendar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/company_detail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/customers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/edit_customer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/edit_service.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/facebookcallback.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/festivals.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/forgot_password.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/googlecallback.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/modal_box.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/old_ajax.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/payments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/paypal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/pdfgenerate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/profile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/quick_booking.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/report_revenue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/reviews.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/rooms_seats.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/setup_company.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/setup_company_ajax.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/signup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/slogin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/staff.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/subscription_payment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/subscription_roz.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/success.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/frontend/upgrade_plan.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/installation/installation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/installation/installation_final.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/admin/1504955949.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/admin/1504956030.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/admin/1535490277.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/1/logo/1484391807.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/1/logo/1504102455.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/1/users/1/1482309786.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/1/users/1/1504249946.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/1/users/3/1482309861.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/1/users/4/1505129469.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/1/users/7/1505119843.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/13/users/94/1504010238.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/19/users/31/1490615814.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/19/users/32/1490615829.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/2/logo/1504966068.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/2/users/12/1498653342.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/2/users/13/1498569957.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/28/users/41/1506514543.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/29/users/39/1505380687.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/3/logo/1483099670.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/3/users/1/1500062195.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/3/users/4/1483098189.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/3/users/5/1483098176.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/3/users/7/1483098130.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/30/logo/1503374625.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/30/users/60/1503375004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/customers/1511616466.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/customers/1511616889.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/customers/1537405115.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/customers/1537405490.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/customers/1537406671.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/logo/1508765243.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/logo/1535489938.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/logo/1535489963.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/108/1535450147.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/109/1535450507.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/110/1535464805.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/111/1535465075.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/112/1535465456.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/113/1535465760.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/114/1535465957.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/115/1535465992.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/116/1535968906.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/117/1535969121.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/118/1535969301.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/119/1539689617.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/120/1535970904.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/121/1540646194.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/62/1513808149.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/62/1535465381.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/64/1511510535.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/69/1511510630.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/70/1535295441.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/43/users/83/1503259061.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/48/logo/1512654099.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/54/customers/1512713820.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/54/logo/1512654128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/7/users/10/1497606396.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/company/logo/1535490277.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/contact_sample_file.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/logo/1481871740.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/logo/150771108-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/logo/1507711086.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/logo/1535490277.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/Item_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/account_enquery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/account_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/appointment_history.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/balance_sheet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/bank_account_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/bank_reconciliation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/bill_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/customer_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/customer_transaction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/durgesh_payslip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/gst_summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/gstf5_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/invoive_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/journal_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/payment_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/profit_loss.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/project_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/receive_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/revenue_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/supplier_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/supplier_transaction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/tax_code_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/tax_code_transaction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/top_customers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/trial_balance.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/unpaid_bills.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdf/unpaid_invoice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/pdflogo/1467615087.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/users/1/1481294561.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/users/10/1481370678.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/users/11/1481370262.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/users/12/1481370379.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/users/24/1482151964.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/users/9/1472459879.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/users/9/1481370695.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/users/9/user_1472462954.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/users/9/user_1472463768.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/users/9/user_1472463840.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/users/9/user_1472463929.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/users/9/user_1472464047.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wizardpost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/setting/frontend/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/setting/frontend/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/frontend/ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/frontend/ajax.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1211,8 +30,8 @@
     <session id="-1330564421">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
-          <entry key="project.open.time.0" value="5" />
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="3" />
@@ -1230,14 +49,14 @@
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="8" />
           <entry key="js" value="3" />
-          <entry key="php" value="4735" />
+          <entry key="php" value="5148" />
           <entry key="txt" value="343" />
         </counts>
       </usages-collector>
@@ -1245,15 +64,16 @@
         <counts>
           <entry key="HTML" value="8" />
           <entry key="JavaScript" value="3" />
-          <entry key="PHP" value="4735" />
+          <entry key="PHP" value="5145" />
           <entry key="PLAIN_TEXT" value="343" />
+          <entry key="SQL" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="6" />
           <entry key="js" value="2" />
-          <entry key="php" value="113" />
+          <entry key="php" value="117" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
@@ -1261,32 +81,17 @@
         <counts>
           <entry key="HTML" value="6" />
           <entry key="JavaScript" value="2" />
-          <entry key="PHP" value="113" />
+          <entry key="PHP" value="117" />
           <entry key="PLAIN_TEXT" value="14" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protected/setting/frontend/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="300" column="22" selection-start-line="300" selection-start-column="21" selection-end-line="300" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>print_r</find>
-      <find>PRENOTA</find>
-      <find>$provider</find>
-      <find>custom_time_slot</find>
-      <find>day</find>
       <find>Aggiungi APPUNTAMENTO</find>
       <find>slot</find>
       <find>mul_doctor_id</find>
@@ -1303,7 +108,6 @@
       <find>APPUNTAMENTI STAFF</find>
       <find>Genera</find>
       <find>Genera risulta</find>
-      <find>events:</find>
       <find>triggerEventRender</find>
       <find>pop</find>
       <find>elenco</find>
@@ -1312,6 +116,12 @@
       <find>scrolling</find>
       <find>popover</find>
       <find>appuntamento deve essere in una data futura!</find>
+      <find>drop:</find>
+      <find>appointment_date</find>
+      <find>update</find>
+      <find>run</find>
+      <find>events:</find>
+      <find>timestamp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1334,12 +144,12 @@
         <option value="$PROJECT_DIR$/protected/views/frontend/quick_booking.php" />
         <option value="$PROJECT_DIR$/protected/views/frontend/calendar.php" />
         <option value="$PROJECT_DIR$/protected/views/backend/ajax.php" />
-        <option value="$PROJECT_DIR$/protected/views/frontend/ajax.php" />
         <option value="$PROJECT_DIR$/protected/views/frontend/modal_box.php" />
         <option value="$PROJECT_DIR$/protected/setting/frontend/header.php" />
         <option value="$PROJECT_DIR$/protected/views/frontend/calendar_day.php" />
         <option value="$PROJECT_DIR$/uploads/pdf/appointment_history.html" />
         <option value="$PROJECT_DIR$/protected/views/frontend/account_preferences.php" />
+        <option value="$PROJECT_DIR$/protected/views/frontend/ajax.php" />
         <option value="$PROJECT_DIR$/protected/setting/frontend/footer.php" />
       </list>
     </option>
@@ -1372,7 +182,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="cale&#9;FILE&#9;file://D:/xampp/htdocs/kdentbru/protected/views/frontend/calendar.php" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/xampp/htdocs/kdentbru/protected/views/frontend/ajax.php&#10;footer.ph&#9;FILE&#9;file://D:/xampp/htdocs/kdentbru/protected/setting/frontend/footer.php&#10;cale&#9;FILE&#9;file://D:/xampp/htdocs/kdentbru/protected/views/frontend/calendar.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../eventonlineapi" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
@@ -1426,16 +236,16 @@
       <workItem from="1542793772647" duration="4170000" />
       <workItem from="1542805870059" duration="4943000" />
       <workItem from="1542813084760" duration="993000" />
-      <workItem from="1542818098103" duration="2802000" />
+      <workItem from="1542818098103" duration="3584000" />
+      <workItem from="1542826165742" duration="3008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81715000" />
+    <option name="totallyTimeSpent" value="85505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2806354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1701,8 +511,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/frontend/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4709">
-          <caret line="277" column="6" selection-start-line="277" selection-start-column="6" selection-end-line="277" selection-end-column="6" />
+        <state relative-caret-position="85">
+          <caret line="5" column="68" lean-forward="true" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
           <folding>
             <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
@@ -1731,8 +541,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/setting/frontend/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="300" column="22" selection-start-line="300" selection-start-column="21" selection-end-line="300" selection-end-column="26" />
+        <state relative-caret-position="271">
+          <caret line="301" column="43" selection-start-line="301" selection-start-column="43" selection-end-line="301" selection-end-column="43" />
         </state>
       </provider>
     </entry>
