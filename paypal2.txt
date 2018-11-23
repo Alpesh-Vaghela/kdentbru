@@ -1,0 +1,78 @@
+Please type in English i cannot understand what you are saying..
+
+BTW as per our talk on freelancer.com we decided to complete below tasks.. in $120.
+
+Production URL : https://www.am-media.it/kDentBru/index.php?user=login 
+-- I didn't made on this URL & don't have access of it & buyer never shared me login details of neither Production nor Development server. 
+
+Development URL : https://www.am-media.it/kDentBru/kd/index.php?user=login 
+-- I didn't made on this URL & don't have access of it & buyer never shared me login details of neither Production nor Development server. 
+-- Incase buyer remove this URL, I added screenshot as a proof: url.png
+
+Please Note: I worked on My Machine & send files to buyer and recommand him to put Development URL for testing, so customer can check everything & move on Production (Live) URL later.
+
+===================================================START OF REQUIREMENT==================================================================
+
+1. fix doctors columns in week view 
+-- Status: ON DISCUSSION
+-- We are discussing on possibliities of this. You said me "I will talk with my customer & later we will do it"
+
+2. drag and drop appointments 
+-- Status: DONE
+-- Proof: Video added (point_1_2.mp3)
+
+3. select 2 or more doctors to view only their calendar 
+-- Status: DONE
+-- Proof: Screenshot added (point_1_3.png)
+
+4. create a receptionist access (Federica Urbinati - staff-ID 121) that views only two doctors (Daniela Preite staff-ID 114 e Valentina Becherucci staff-ID 115) 
+and this could be always point 3 but I need to set this calendar by 5 minutes and not 15 
+Now there are some things to fix that previous developer don’t finish. 
+-- Status: DONE
+-- Proof: 
+	
+Login URL: https://www.am-media.it/kDentBru/kd/index.php?user=login (Development URL, if removed please check url.png as a proof)
+
+There are two roles 1) Admin 2) Receptionist
+
+For Admin Login details, 
+Usernname: monica@am-media.it   
+Password: 111222333444
+
+For Receptionist Login details,
+Usernname: <add here>
+Password: <add here>
+
+Once you login you can see difference in receptionist login and admin login that i completed successfully
+   
+------------------------------------------------------------------------------------------------------------------
+   
+These things you have to quote separately. I’ll try to contact previous developer.  
+1. If patient is “New” show his name bold in calendar (now all patient are in bold) 
+-- Status: DONE
+-- Proof: Screenshot added (point_1_2.png)
+
+2. when I cancel an appointment in patient history (for example https://www.ammedia.it/kDentBru/index.php?user=edit_customer&action_edit=1) 
+in the canceled appointment must not shown no buttons ("paziente arrived”, “visit in progress” “add payment”) and when appointment was rescheduled, 
+it must not show “rescheduled appointment” button, too. 
+-- Status: DONE
+-- Proof: Screenshot added (point_2_2.png)
+
+3. https://www.am-media.it/kDentBru/index.php?user=account_preferences  in "REPORT APPUNTAMENTI” add a button to print near “genera PDF”.  
+-- Status: DONE
+-- Proof: Screenshot added (point_2_3.png)
+
+4. Insert a button in the header, always shown, to go in “Report Appuntamenti”  
+-- Status: DONE
+-- Proof: Screenshot added (point_2_4.png)
+
+5. In this page https://www.am-media.it/kDentBru/index.php?user=calendar_day   
+show only: patient name, appointment duration, notes (if text too long, truncate)
+-- Status: DONE
+-- Proof: Screenshot added (point_2_5.png)
+
+===================================================END OF REQUIREMENT==================================================================
+
+Additonally i also worked several part which was not in the list on our verbal communication (God knows that).
+
+Buyer should pay me the remaining amount which is $80 USD instead of doing false claim here.
