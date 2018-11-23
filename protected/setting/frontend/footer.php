@@ -19,15 +19,11 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                         } else {
                             $all_activity_log = $db->get_all('activity_logs', array('company_id' => CURRENT_LOGIN_COMPANY_ID));
                         }
-
                         if (is_array($all_activity_log)) {
                             foreach ($all_activity_log as $alla) {
                                 if (is_array($common_data_activity_alert) && in_array($alla['event_type'], $common_data_activity_alert)) {
                                     ?>
-
-
                                     <li class="list-group-item">
-
                                         <div class="pull-left avatar mar-rgt">
                                             <button class="btn btn-icon icon-lg <?php if ($alla['event_type'] == "customer_created" || $alla['event_type'] == "appointment_created") {
                                                 echo 'btn-success';
@@ -40,8 +36,8 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                                             } elseif ($alla['event_type'] == "logout") {
                                                 echo 'btn-purple';
                                             }
-
-                                            ?> <?php if ($alla['event_type'] == "customer_created" || $alla['event_type'] == "customer_updated" || $alla['event_type'] == "customer_deleted") {
+                                            ?>
+                                            <?php if ($alla['event_type'] == "customer_created" || $alla['event_type'] == "customer_updated" || $alla['event_type'] == "customer_deleted") {
                                                 echo 'fa fa-user fa-lg';
                                             } elseif ($alla['event_type'] == "login") {
                                                 echo 'fa fa-sign-in fa-lg';
@@ -50,10 +46,7 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                                             } elseif ($alla['event_type'] == "appointment_created" || $alla['event_type'] == "appointment_updated" || $alla['event_type'] == "appointment_deleted") {
                                                 echo 'fa fa-calendar fa-lg';
                                             }
-
                                             ?>">
-
-
                                             </button>
                                         </div>
                                         <div class="inline-block">
@@ -70,10 +63,8 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                                                     <?php }
                                                 } elseif ($alla['event_type'] == "appointment_created" || $alla['event_type'] == "appointment_updated" || $alla['event_type'] == "appointment_deleted") {
                                                     if ($db->exists('appointments', array('id' => $alla['event_type_id']))) {
-
                                                         $appointment_status = $db->get_var('appointments', array('id' => $alla['event_type_id']), 'status');
                                                         if ($appointment_status != "paid") {
-
                                                             ?>
                                                             <a data-toggle="modal"
                                                                data-target="#myModal_edit_appointment"
@@ -86,18 +77,12 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                                                     } else {
                                                         ?>
                                                         <a href="<?php echo $link->link('quick_booking', frontend); ?>"><?php echo $alla['event']; ?></a>
-
                                                     <?php }
                                                 } ?>
-
-
                                             </div>
                                             <small class="text-muted"><?php echo date('d, M Y h:i:s', strtotime($alla['timestamp'])); ?></small>
                                         </div>
-
                                     </li>
-
-                                <?php } else {
                                     ?>
                                     <?php if ($_SESSION['user_type'] == "admin") { ?>
                                         <h5>Click here for<a tab="activity_alert_notification" class="set_cookie"
@@ -280,8 +265,8 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
 
         function load_calender(c_date) {
             // alert(c_date);
-            $('#demo-calendar12').fullCalendar({
-
+            var $calObj = $('#demo-calendar12');
+            $calObj.fullCalendar({
                 customButtons: {
                     EventButton: {
                         text: 'Appuntamenti DOTTORI',
@@ -296,12 +281,6 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                     right: 'month, agendaWeek, agendaDay<?php if ($_SESSION['user_type'] == "admin"){?>, EventButton<?php }?>'
                 },
                 timeFormat: 'hh:mm',//'hh:mm:ss a',
-                editable: true,
-                droppable: true, // this allows things to be dropped onto the calendar
-                eventDrop: function (event, delta, revertFunc) {
-                    $(".popover").remove();
-                    $.post('<?php echo $link->link('ajax', frontend);?>&edit=appointment_date&id=' + event.id + '&appointment_start_date_time=' + event.start.format() + '&appointment_end_date_time=' + event.end.format());
-                },
                 defaultView: '<?php
                     if (DEFAULT_CALENDAR == "daily") {
                         echo 'agendaDay';
@@ -333,13 +312,8 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                 maxTime: '20:00:00',
                 selectable: true,
                 selectHelper: true,
-                select: function (start, end) {
-                    var allDay = !start.hasTime() && !end.hasTime();
-                    $("#get_date_calender").val(moment(start).format('DD-MM-YYYY'));
-                    $("#get_date_calender").val(moment(start).format('DD-MM-YYYY'));
-                    $('#fullCalModal_add_appointment').modal();
-                    $('#demo-calendar12').fullCalendar('unselect');
-                },
+                editable: true,
+                droppable: true, // this allows things to be dropped onto the calendar
                 eventLimit: true, // allow "more" link when too many events
                 businessHours: [<?php echo $business_day;?> ],
                 hiddenDays: [<?php echo $offday_new;?>],
@@ -391,10 +365,9 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                     $service_end_time = date('H:i:s', $endTime);
                     $appointment_end_time = $aa['appointment_end_time'];
                     $customer_regular = !empty($customer_details['customer_regular']) ? true : false;
-                    $customer_regular_class = $customer_details ? "text-bold" : "";
                     ?>
                     {
-                        title: "<?php echo ucfirst($service_provider_firstname);?> <?php echo $service_provider_lastname;?> Customer:<?php echo $customer_fullname;?> <?php echo $pathology; ?> Notes: <?php echo $appointment_note?>",
+                        title: "<?php echo ucfirst($service_provider_firstname);?> <?php echo $service_provider_lastname;?> \nCustomer:<?php echo $customer_fullname;?> <?php echo $pathology; ?> \nNotes: <?php echo $appointment_note?>",
                         start: "<?php echo date("Y-m-d", strtotime($appointment_date)) ?>T<?php echo date('H:i:s', strtotime($appointment_time));?>",
                         end: "<?php echo date("Y-m-d", strtotime($appointment_date))?>T<?php echo date('H:i:s', strtotime($service_end_time));?>",
                         type: "<?php echo ($type == 'yes') ? 'private' : 'no-private'; ?>",
@@ -424,10 +397,7 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                     <?php
                     $festivals = file_get_contents(SITE_URL . '/festivals.php');
                     $festivals = json_decode($festivals);
-                    ?>
-
-
-                    <?php foreach ($festivals as $festival){ ?>
+                    foreach ($festivals as $festival){ ?>
                     {
                         title: "<?php echo $festival->name?>",
                         start: "<?php echo $festival->date?>",
@@ -439,10 +409,7 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                     },
                     <?php } ?>
                     <?php
-
                     $notes = $db->get_all('notes');
-
-
                     if (is_array($notes))
                     {
                     foreach ($notes as $note) { ?>
@@ -464,8 +431,13 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
 
                     ?>
                 ],
+                select: function (start, end) {
+                    var allDay = !start.hasTime() && !end.hasTime();
+                    $("#get_date_calender").val(moment(start).format('DD-MM-YYYY'));
+                    $('#fullCalModal_add_appointment').modal();
+                    $('#demo-calendar12').fullCalendar('unselect');
+                },
                 eventClick: function (event, jsEvent, view) {
-
                     if (event.type != "Public Holiday" && event.type != "notes") {
                         var status = "";
                         if (event.status === "Stato: Visit done") {
@@ -491,27 +463,22 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                         $('#note').html(event.notes);
                         $('#status').html(status);
                         $('#fullCalModal').modal();
-
                         if (event.status === "Stato: Visit done") {
                             $('#fullCalModal').find('.change-text-app').hide();
                         } else if (event.status === "Stato: visit in process") {
                             $('#fullCalModal').find('.change-text-app').text('Visit in Process');
                         }
-
                     } else if (event.type === "notes") {
                         $('#add_notes_form input[name="start_date"]').val(event.note_start);
                         $('#add_notes_form input[name="end_date"]').val(event.note_end);
                         $('#add_notes_form input[name="note_id"]').val(event.note_id);
                         $('#add_notes_form textarea[name="notification"]').val(event.title);
                         $('#myModal_notes').modal('show');
-                    } else {
                     }
-
                 },
                 eventRender: function (event, $el) {
-                    if (window.eventScrolling) return;
                     if (event.type !== "notes" && event.title != "Public Holiday") {
-                        if (event.modalTitle !== undefined && event.appointment_date_service_time !== undefined && !$("body").hasClass(".fc-unselectable")) {
+                        if (event.modalTitle !== undefined && event.appointment_date_service_time !== undefined) {
                             $el.popover({
                                 title: event.modalTitle,
                                 content: event.appointment_date_service_time + "<br>" + event.provider + "<br>" + event.service + "<br>" + event.notes + "<br>" + event.customer + "<?php echo $pathology ?>" + "<br>" + event.mobile,
@@ -524,15 +491,16 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                         }
                     }
                 },
+                eventDrop: function (event, delta, revertFunc) {
+                    $this = $(this);
+                    $this.popover({html: true, title: event.title, placement: 'top'}).popover('show');
+                    $(".popover").remove();
+                    $.post('<?php echo $link->link('ajax', frontend);?>&edit=appointment_date&id=' + event.id + '&appointment_start_date_time=' + event.start.format() + '&appointment_end_date_time=' + event.end.format(), function () {
+                        //window.location.reload();
+                    });
+                },
             });
         }
-
-        $('#demo-calendar12').on("dragstart", function () {
-            window.eventScrolling = true;
-        });
-        $('#demo-calendar12').on("dragend", function () {
-            window.eventScrolling = false;
-        });
 
         $(document).ready(function () {
             if (getUrlParameter('c_date') != undefined && getUrlParameter('c_date') != "") {
@@ -543,9 +511,6 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                 load_calender('<?php echo date('Y-m-d');?>');
             }
         });
-
-    </script>
-    <script>
         $("#load_edit_appoint_form").click(function () {
             var color = $('#appointment_id').val();
             $("#fullCalModal").modal('hide');
@@ -555,12 +520,9 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                 data: '&edit_appointment=' + color,
                 success: function (data) {
                     $("#load_edit_appointmentform").html(data);
-
                 }
             });
-
         });
-
         $("#load_cancel_appoint_form").click(function () {
             var color = $('#appointment_id').val();
             $("#fullCalModal").modal('hide');
@@ -570,15 +532,11 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                 data: '&cancel_appointment=' + color,
                 success: function (data) {
                     $("#load_cancel_appointmentform").html(data);
-
                 }
             });
-
         });
-
         $('#delete_appointment_calendar').click(function () {
             var apid = $('#appointment_id').val();
-            //alert(apid);
             $.ajax({
                 type: 'post',
                 url: '<?php echo $link->link('ajax', frontend);?>',
@@ -591,19 +549,15 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                             window.location = '<?php echo $link->link('calendar', frontend);?>';
                         }, 3000);
                     }
-
                 }
             });
         });
-
         $('.cancel-calender').on('click', function () {
             var apid = $('#appointment_id').val();
             $(this).attr('data', apid);
-        })
-
+        });
         $('#update_arrival_appointment_calendar').click(function () {
             var apid = $('#appointment_id').val();
-            //alert(apid);
             $.ajax({
                 type: 'post',
                 url: '<?php echo $link->link('ajax', frontend);?>',
@@ -616,26 +570,18 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                             window.location = '<?php echo $link->link('calendar', frontend);?>';
                         }, 3000);
                     }
-
                 }
             });
         });
-
         $('#update_arrival_appointment').click(function () {
-            alert();
             var apid = $('#appointment_id').val();
-            //alert(apid);
             $.ajax({
                 type: 'post',
                 url: '<?php echo $link->link('ajax', frontend);?>',
                 data: '&update_appointment=' + apid,
-                dataType: 'json',
-                success: function (data) {
-
-                }
+                dataType: 'json'
             });
         });
-
     </script>
 <?php } ?>
 <script>
@@ -649,24 +595,18 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
             dataType: 'json',
             success: function (data) {
                 $("#after_post_message_appointment_edit").html(data.msg);
-
                 if (data.error == false) {
                     setTimeout(function () {
                         $("#myModal_edit_appointment").modal('hide');
                         window.location = '';
-
                     }, 3000);
                 }
 
             }
         });
-
     });
-</script>
-<script>
     /************************Edit Appointment***********************************************/
     $(function () {
-
         $('#edit_memo_form').on('submit', function (e) {
             e.preventDefault();
             $.ajax({
@@ -687,12 +627,8 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                     }
                 }
             });
-
         });
-
     });
-</script>
-<script>
     /*************************cancel appointment***********************************/
     $('#cancel_appointment_form').on('submit', function (e) {
         e.preventDefault();
@@ -703,26 +639,18 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
             dataType: 'json',
             success: function (data) {
                 $("#after_post_message_appointment_cancel").html(data.msg);
-
                 if (data.error == false) {
                     setTimeout(function () {
                         $("#myModal_cancel_appointment").modal('hide');
                         window.location = '';
-
                     }, 3000);
                 }
-
             }
         });
-
     });
-</script>
-<script>
     /************************Add Customer***********************************************/
     $(function () {
-
         $('#add_customer_form').on('submit', function (e) {
-
             e.preventDefault();
             $.ajax({
                 type: 'post',
@@ -735,48 +663,27 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                     if (data.error == false) {
                         var cusid = data.cid;
                         var cname = data.cname;
-
                         var page = '<?php echo $query1ans;?>';
                         if (page == 'calendar') {
-
                             $('#loadnewcus').prepend($("<option selected='selected'></option>").attr("value", cusid).text(cname));
                             setTimeout(function () {
                                 $('#myModal_add_customer').modal('hide');
-
-
                             }, 3000);
-
-                        }
-                        else {
-
-
+                        } else {
                             $('#loadnewcus').prepend($("<option selected='selected'></option>").attr("value", cusid).text(cname));
                             setTimeout(function () {
                                 $('#myModal_add_customer').modal('hide');
-
-
                             }, 3000);
-
-
                             // window.location = '<?php echo $link->link('quick_booking', frontend, '&bookig_for_customer=');?>'+cusid;
                         }
-
                     }
                 }
             });
-
         });
-
     });
-</script>
-
-
-<script>
     /************************Add Staff***********************************************/
     $(function () {
-
         $('#add_staff_form').on('submit', function (e) {
-
             e.preventDefault();
             $.ajax({
                 type: 'post',
@@ -784,7 +691,6 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                 data: $('#add_staff_form').serialize(),
                 dataType: 'json',
                 success: function (data) {
-                    // alert(data);
                     $("#after_post_message").html(data.msg);
                     if (data.error == false) {
                         setTimeout(function () {
@@ -799,13 +705,9 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
             });
 
         });
-
     });
-</script>
-<script>
     /************************Add Appointment***********************************************/
     $(function () {
-
         $('#add_appointment_form').on('submit', function (e) {
             e.preventDefault();
             $.ajax({
@@ -830,8 +732,6 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
         });
 
     });
-</script>
-<script>
     /************************Add Appointment***********************************************/
     $(function () {
 
@@ -853,10 +753,7 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
             });
 
         });
-
     });
-</script>
-<script>
     /************************Add timeoff***********************************************/
     $(function () {
 
@@ -880,11 +777,8 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
         });
 
     });
-</script>
-<script>
     /************************Edit Appointment***********************************************/
     $(function () {
-
         $('#edit_appointment_form').on('submit', function (e) {
             e.preventDefault();
             $.ajax({
@@ -909,14 +803,9 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
             });
 
         });
-
     });
-</script>
-
-<script>
     /************************Edit Booking***********************************************/
     $(function () {
-
         $('#edit_booking_form').on('submit', function (e) {
             e.preventDefault();
             $.ajax({
@@ -939,19 +828,13 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                     }
                 }
             });
-
         });
-
     });
-</script>
-<script>
     $('.show_image_input').click(function () {
         $('.file_input').toggle();
 
 
     });
-</script>
-<script>
     /*
     # =============================================================================
     #   WYSIWYG Editor
@@ -970,21 +853,12 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
     #   Date Picker
     # =============================================================================
     */
-
-
-</script>
-<script>
     $("#scolor").change(function () {
         var color = $(this).val();
         $("#scolor").removeAttr('class');
         $("#scolor").addClass("form-control text-" + color);
 
     });
-
-
-</script>
-
-<script>
     $('#load_services_by_provider').change(function () {
         var pid = $(this).val();
         $.ajax({
@@ -994,12 +868,9 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
             success: function (data) {
                 $(".load_services").html(data);
                 $(".load_services_edit").html(data);
-
             }
         });
     });
-
-
     $('#load_cost_time_by_service').change(function () {
         var sid = $(this).val();
         $.ajax({
@@ -1009,15 +880,12 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
             success: function (data) {
                 $(".load_costandtime").html(data);
                 $(".load_costandtime_edit").html(data);
-
             }
         });
     });
-
     $('#load_services_by_provider').change(function () {
         var pid = $(this).val();
         var date = $("#get_date_calender").val();
-        //alert(pid+"=="+date);
         $.ajax({
             type: 'post',
             url: '<?php echo $link->link('ajax', frontend);?>',
@@ -1027,7 +895,6 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
             }
         });
     });
-
     $('#get_date_calender').change(function () {
         var date = $(this).val();
         var pid = $("#load_services_by_provider").val();
@@ -1041,11 +908,9 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
             }
         });
     });
-
     $('#load_cost_time_by_service').change(function () {
         var date = $("#get_date_calender").val();
         var pid = $("#load_services_by_provider").val();
-        //alert(pid+"=="+date);
         $.ajax({
             type: 'post',
             url: '<?php echo $link->link('ajax', frontend);?>',
@@ -1055,9 +920,6 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
             }
         });
     });
-
-</script>
-<script>
     $('.edit_modal_edit_customer').click(function () {
         var aid = $(this).attr('data');
         $.ajax({
@@ -1069,11 +931,7 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
 
             }
         });
-
-
-    })
-</script>
-<script>
+    });
     $('.edit_memo').click(function () {
         var aid = $(this).attr('data');
         $.ajax({
@@ -1085,11 +943,7 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
 
             }
         });
-
-
-    })
-</script>
-<script>
+    });
     $('.cancel_modal_cancel_customer').click(function () {
         var aid = $(this).attr('data');
         $.ajax({
@@ -1103,9 +957,7 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
         });
 
 
-    })
-</script>
-<script>
+    });
     $('.care_plan_edit_booking').click(function () {
         var aid = $(this).attr('data');
         $.ajax({
@@ -1117,25 +969,19 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
 
             }
         });
-
-
     });
     $('.add-app-carenote').on('click', function () {
         var date1 = $(this).parents('.add-app-wrapper').find('input.dynamic-date').val();
         $('.hidden_care_id').val($(this).data('care_id'));
         // $('.care_plan_date').val(date1);
-    })
-</script>
-<script>
+    });
     $('.assign_room_button').click(function () {
         //alert('dsgsdg');
         var appontid = $(this).attr('data');
         $('#appoint_assign_room').val(appontid);
 
 
-    })
-</script>
-<script>
+    });
     /************************Close Account**********************************************/
     $(function () {
 
@@ -1159,8 +1005,6 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
         });
 
     });
-</script>
-<script>
     /************************Close Account**********************************************/
     $(function () {
 
@@ -1188,22 +1032,15 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
         });
 
     });
-</script>
-<script>
     $(".set_cookie").click(function () {
         var tab = $(this).attr('tab');
         var ct = document.cookie = "current_tab=" + tab;
         window.location.href = "";
 
     });
-</script>
-
-<script>
     /************************Add Staff***********************************************/
     $(function () {
-
         $('#add_service_form').on('submit', function (e) {
-
             e.preventDefault();
             $.ajax({
                 type: 'post',
@@ -1220,12 +1057,8 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
                     }
                 }
             });
-
         });
-
     });
-</script>
-<script>
     $('#get_current_month_from_full_calendar').click(function () {
         var moment = $('#demo-calendar12').fullCalendar('getDate');
         //  alert("The current date of the calendar is " + moment.format());
@@ -1241,10 +1074,6 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
             }
         });
     });
-</script>
-<script>
-
-
     $(".show_related_fields").change(function () {
         if (this.checked) {
             $(".show_on_staff_login_yes").show();
@@ -1253,18 +1082,10 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
             $(".show_on_staff_login_yes").hide();
         }
     });
-
-</script>
-<script>
     $("#filter_by_dashboard").change(function () {
 
         $("#filter_form_id").submit();
     });
-
-
-</script>
-<script>
-
     $(".load_payment_details").click(function () {
         var data_appointment_id = $(this).attr("data_id");
         var data_booking_id = $(this).attr("data_booking_id");
@@ -1310,9 +1131,6 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
         });
 
     });
-
-</script>
-<script>
     /************************Add Notification***********************************************/
     $(function () {
 
@@ -1336,11 +1154,6 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
         });
 
     });
-
-</script>
-
-
-<script>
     /************************Add Notes in Calendar***********************************************/
     $(function () {
 
@@ -1380,8 +1193,7 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
             }
         });
     }
-</script>
-<script>
+
     setInterval(function () {
         appointmentComplete();
     }, 5000);
@@ -1404,11 +1216,6 @@ if (file_exists(SERVER_ROOT . '/protected/views/frontend/modal_box.php')) {
         });
     });
 </script>
-<style>
-    .text-bold {
-        font-weight: bold;
-    }
-</style>
 </body>
 
 </html>

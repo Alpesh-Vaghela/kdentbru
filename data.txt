@@ -18,11 +18,6 @@ Now there are some things to fix that previous developer don’t finish.
 These things you have to quote separately. I’ll try to contact previous developer.
 -- DONE
 
-1. show patient name in bold in calendar if he is New Patient (now he is in bold only in
-details) and patients are inverted (new is old and old is new). But this old thing I can
-fix by me.
--- DONE
-
 2.when I cancel an appointment in patient history (for example https://www.ammedia.it/kDentBru/index.php?user=edit_customer&action_edit=1)
 in the canceled
 appointment must not shown no buttons ("paziente arrived”, “visit in progress”
@@ -35,7 +30,12 @@ appointment must not shown no buttons ("paziente arrived”, “visit in progres
 
 4.If I booked an appointment from 15 to 16, I can’t book next appointment at 16 but at
 16:15. If "Custom Time Slot” in preferences is 5 minutes setted, I can book at 16:05
--- DONE
+-- PENDING
+
+1. show patient name in bold in calendar if he is New Patient (now he is in bold only in
+details) and patients are inverted (new is old and old is new). But this old thing I can
+fix by me.
+-- PENDING
 
 ==================
 
@@ -51,3 +51,12 @@ slotEventOverlap:false
 <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.1/fullcalendar.js'></script>
 <script src="<?php echo SITE_URL . '/assets/frontend/plugins/fullcalendar/fullcalendar-columns.js' ?>"></script>
 <!-- multi column-->
+
+protected/setting/frontend/footer.php
+protected/views/frontend/account_preferences.php
+protected/views/frontend/ajax.php
+protected/views/frontend/calendar.php
+protected/views/frontend/calendar_day.php
+protected/views/frontend/edit_customer.php
+protected/views/frontend/home.php
+protected/views/frontend/pdfgenerate.php

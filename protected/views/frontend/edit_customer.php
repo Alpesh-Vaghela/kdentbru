@@ -23,17 +23,13 @@
 <?php
 //echo CURRENT_LOGIN_COMPANY_ID;
 $current_tab = $_COOKIE['current_tab'];
-
-
 if ($current_tab != "appointment" && $current_tab != "notes" && $current_tab != "stats" && $current_tab != "anamnesis" && $current_tab != "care_plan") {
     $current_tab = "appointment";
 }
-
 if (isset($_REQUEST['action_edit'])) {
     $edit_id = $_REQUEST['action_edit'];
     $customer_detail = $db->get_row('customers', array('id' => $edit_id));
 }
-
 if (isset($_REQUEST['action_update'])) {
     $appointment_id = $_REQUEST['action_update'];
     $visit_done = VISIT_DONE;
@@ -48,8 +44,6 @@ if (isset($_REQUEST['action_update'])) {
     setTimeout(function(){
         window.location = '" . $link->link("edit_customer", user, '&action_edit=' . $customer_details[0]['customer_id']) . "'
     },3000);</script>";
-
-
 }
 
 if (isset($_REQUEST['action_delete'])) {
@@ -760,21 +754,6 @@ if (isset($_POST['add_contact_form_submit'])) {
                                         <div id="results">Your captured image will appear here...</div>
                                     </div>
                                 </div>
-
-
-                                <!--    <div class="form-group">
-           <label class="control-label col-md-3">Status</label>
-           <div class="col-md-9">
-              <select class="form-control" name="visibility_status">
-                 <option value="active" <?php if ($customer_detail['visibility_status'] == 'active') {
-                                    echo 'selected';
-                                } ?>>Active</option>
-                 <option value="inactive" <?php if ($customer_detail['visibility_status'] == 'inactive') {
-                                    echo 'selected';
-                                } ?>>Inactive</option>
-              </select>
-           </div>
-       </div>-->
                             </div>
                         </div>
                     </div>
@@ -825,30 +804,21 @@ if (isset($_POST['add_contact_form_submit'])) {
                 <!--Tabs Content-->
                 <div class="tab-content">
                     <?php if ($current_tab == 'appointment') {
-
-
                         if ($_SESSION['user_type'] == "admin") {
                             $appointment_count = $db->get_count('appointments', array('customer_id' => $edit_id));
-
                             $sql = "SELECT SUM(service_cost) FROM `appointments` WHERE `customer_id`='$edit_id'";
                             $appointment_cost = $db->run($sql)->fetchColumn();
-
-
                             $db->order_by = 'id DESC';
                             $appointments = $db->get_all('appointments', array('customer_id' => $edit_id));
                         } else {
                             $appointment_count = $db->get_count('appointments', array('customer_id' => $edit_id, 'private' => 'no'));
-
                             $sql = "SELECT SUM(service_cost) FROM `appointments` WHERE `customer_id`='$edit_id' AND `private`='no'";
                             $appointment_cost = $db->run($sql)->fetchColumn();
-
                             $db->order_by = 'id DESC';
                             $appointments = $db->get_all('appointments', array('customer_id' => $edit_id, 'private' => 'no'));
                         }
-
-
+                        //$appointments = $db->get_all('appointments'); // remove this
                         ?>
-
                         <h4 class="text-thin">
                             <button type="button" class="btn btn-custom" data-toggle="modal"
                                     data-target="#myModal_add_appointment"><i class="fa fa-plus"></i></button>
@@ -900,7 +870,7 @@ if (isset($_POST['add_contact_form_submit'])) {
                                             <?php } ?>
                                         </td>
                                         <td><?php echo date('D d M, Y', strtotime($appoint['appointment_date'])); ?>
-                                            (<?php echo date('h:i  A', strtotime($appoint['appointment_time'])) . "-" . date('h:i  A', strtotime($appoint['appointment_end_time'])); ?>
+                                            (<?php echo date('H:i:s', strtotime($appoint['appointment_time'])) . "-" . date('H:i:s', strtotime($appoint['appointment_end_time'])); ?>
                                             )
                                             <br><?php echo ucwords($service_provider_firstname . " " . $service_provider_lastname); ?>
                                             .Nome Paziente: <?php echo $customer_name . $pathology; ?>
@@ -943,19 +913,21 @@ if (isset($_POST['add_contact_form_submit'])) {
                                                 ?>
 
                                             <?php } else {
-                                                ?>
-                                                <span class="label label-<?php if ($appoint['status'] == "pending") {
-                                                    echo "warning";
-                                                } else {
-                                                    echo "success";
-                                                } ?> class-<?php echo $appoint['id']; ?>"><i class="fa fa-tag"></i>
-                                                    <?php
-                                                    if ($appoint['status'] == VISIT_DONE)
-                                                        echo "Visita ESEGUITA";
-                                                    else
-                                                        echo "Visita in CORSO";
+                                                if ($appoint['status'] != 'deleted') {
                                                     ?>
-                            </span>
+                                                    <span class="label label-<?php if ($appoint['status'] == "pending") {
+                                                        echo "warning";
+                                                    } else {
+                                                        echo "success";
+                                                    } ?> class-<?php echo $appoint['id']; ?>"><i class="fa fa-tag"></i>
+                                                        <?php
+                                                        if ($appoint['status'] == VISIT_DONE)
+                                                            echo "Visita ESEGUITA";
+                                                        else
+                                                            echo "Visita in CORSO";
+                                                        ?>
+                                                </span>
+                                                <?php } ?>
                                                 <br>
                                                 <?php if ($appoint['status'] == "confirmed") { ?>
                                                     <!--                                                   <span class="label label-info">Assigned Room: <?php echo ucwords($db->get_var('rooms', array('id' => $appoint['assigned_room']), 'name')); ?></span>
@@ -963,32 +935,35 @@ if (isset($_POST['add_contact_form_submit'])) {
                                                 <?php } ?>
 
 
-                                                <?php if ($appoint['payment_status'] == "unpaid") { ?>
-
-                                                    <a href="#" data-toggle="modal" data-target="#myModal_payment"
-                                                       class="load_payment_details" id="load_payment_details"
-                                                       data_id="<?php echo $appoint['id']; ?>"
-                                                       data_booking_id="<?php echo $appoint['booking_id']; ?>"
-                                                       data_booking_date="<?php echo date(COMMON_DATE_FORMAT, strtotime($appoint['appointment_date'])); ?>"
-                                                       data_customer="<?php echo ucwords($customer_name); ?>"
-                                                       data_service_name="<?php echo ucwords($service_name); ?>"
-                                                       data_payment_sum_advance="<?php echo ucwords($payment_sum_advance); ?>"
-                                                       data_service_cost="<?php echo $appoint['service_cost'] ?>"
-                                                       data_balance="<?php echo $appoint['balance'] ?>">(Aggiungi
-                                                        PAGAMENTO)</a>
-                                                <?php } else { ?>
+                                                <?php if ($appoint['payment_status'] == "unpaid") {
+                                                    if ($appoint['status'] != 'deleted') { ?>
+                                                        <a href="#" data-toggle="modal" data-target="#myModal_payment"
+                                                           class="load_payment_details" id="load_payment_details"
+                                                           data_id="<?php echo $appoint['id']; ?>"
+                                                           data_booking_id="<?php echo $appoint['booking_id']; ?>"
+                                                           data_booking_date="<?php echo date(COMMON_DATE_FORMAT, strtotime($appoint['appointment_date'])); ?>"
+                                                           data_customer="<?php echo ucwords($customer_name); ?>"
+                                                           data_service_name="<?php echo ucwords($service_name); ?>"
+                                                           data_payment_sum_advance="<?php echo ucwords($payment_sum_advance); ?>"
+                                                           data_service_cost="<?php echo $appoint['service_cost'] ?>"
+                                                           data_balance="<?php echo $appoint['balance'] ?>">(Aggiungi PAGAMENTO)</a>
+                                                    <?php }
+                                                } else { ?>
                                                     <span class="label label-success"><i class="fa fa-check"></i> SALDATO</span>
 
                                                 <?php } ?>
                                             <?php } ?> </td>
                                         <td>
-                                            <a data-toggle="modal" data-target="#myModal_edit_appointment"
-                                               data="<?php echo $appoint['id']; ?>" class="edit_modal_edit_customer"><i
-                                                        class="fa fa-edit fa-2x text-info"></i></a>
-                                            <a data-toggle="modal" data-target="#myModal_cancel_appointment"
-                                               data="<?php echo $appoint['id']; ?>"
-                                               class="cancel_modal_cancel_customer"><i
-                                                        class="fa fa-trash fa-2x text-danger"></i></a>
+                                            <?php if ($appoint['status'] != 'deleted') { ?>
+                                                <a data-toggle="modal" data-target="#myModal_edit_appointment"
+                                                   data="<?php echo $appoint['id']; ?>"
+                                                   class="edit_modal_edit_customer"><i
+                                                            class="fa fa-edit fa-2x text-info"></i></a>
+                                                <a data-toggle="modal" data-target="#myModal_cancel_appointment"
+                                                   data="<?php echo $appoint['id']; ?>"
+                                                   class="cancel_modal_cancel_customer"><i
+                                                            class="fa fa-trash fa-2x text-danger"></i></a>
+                                            <?php } ?>
                                         </td>
                                     </tr>
                                 <?php }
